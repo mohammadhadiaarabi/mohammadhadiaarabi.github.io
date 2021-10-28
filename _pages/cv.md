@@ -13,21 +13,13 @@ You can download my full CV [here](https://raw.githubusercontent.com/benedetta-m
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. Physics, University of Padova, 2017
+* M.S. Physics of Complex Systems, University of Turin, 2019
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2019-2020: Scholarship holder at University of Padova
+  
   
 Skills
 ======
