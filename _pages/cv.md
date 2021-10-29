@@ -19,7 +19,7 @@ Education
 Research experience
 ======
 * October 2020-present: PhD student in Neuroscience at Padova Neuroscience Center
-* December 2019- September 2020: Scholarship holder at University of Padova
+* December 2019-September 2020: Scholarship holder at University of Padova
 
 Programming kills
 ======
