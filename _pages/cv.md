@@ -13,13 +13,13 @@ You can download my full CV [here](https://raw.githubusercontent.com/benedetta-m
 
 Education
 ======
-* M.S. in Physics of Complex Systems, University of Turin, 2019
-* B.S. in Physics, University of Padova, 2017
+* M.S. in Physics of Complex Systems, University of Turin, October 2019
+* B.S. in Physics, University of Padova, December 2017
 
 Research experience
 ======
-* 2021-presennt: PhD student in Neuroscience at Padova Neuroscience Center
-* 2019-2020: Scholarship holder at University of Padova
+* October 2020-present: PhD student in Neuroscience at Padova Neuroscience Center
+* December 2019- September 2020: Scholarship holder at University of Padova
 
 Programming kills
 ======
