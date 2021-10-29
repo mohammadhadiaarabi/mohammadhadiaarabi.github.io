@@ -6,10 +6,9 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2021-8-30
 venue: 'Frontiers in Systems Neuroscience'
 paperurl: 'https://www.frontiersin.org/articles/10.3389/fnsys.2021.709677/full'
-citation: 'Mariani, B. (2021). &quot;.&quot; <i>Journal 1</i>. 1(1).'
+Giacomo Barzon et al 2021 <i>J. Phys. A: Math. Theor.</i> 54 044002.
+citation: 'Mariani, B. et al (2021) <i> Frontiers in Systems Neuroscience 1</i> 2021.
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
 [Download paper here](http://academicpages.github.io/files/paper1.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
