@@ -6,8 +6,7 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2021-8-30
 venue: 'Frontiers in Systems Neuroscience'
 paperurl: 'https://www.frontiersin.org/articles/10.3389/fnsys.2021.709677/full'
-Giacomo Barzon et al 2021 <i>J. Phys. A: Math. Theor.</i> 54 044002.
-citation: 'Mariani, B. et al (2021) <i> Frontiers in Systems Neuroscience 1</i> 2021.
+citation: "Mariani, B. et al (2021) <i> Frontiers in Systems Neuroscience 1</i> 2021."
 ---
 
 [Download paper here](http://academicpages.github.io/files/paper1.pdf)
