@@ -8,4 +8,4 @@ paperurl: 'https://arxiv.org/abs/2105.05070'
 citation: "Mariani, B. et al (2021) <i> arXiv:2105.05070v2 1</i>"
 ---
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+[Download paper here](http://academicpages.github.io/files/2105.05070.pdf)
