@@ -5,7 +5,7 @@ permalink: /publication/2022-01-18-paper-title-number-3
 date: 2022-07-5
 venue: 'Journal of Physics: Complexity'
 paperurl: 'https://iopscience.iop.org/article/10.1088/2632-072X/ac7a83'
-citation: "Barzon, G. et al (2022) <i> Journal of Physics: Complexity vol 3 https://doi.org/10.1088/2632-072X/ac7a83. </i>"
+citation: "Barzon, G. et al (2022) <i> Journal of Physics: Complexity vol 3 10.1088/2632-072X/ac7a83. </i>"
 ---
 
 [Download paper here](https://iopscience.iop.org/article/10.1088/2632-072X/ac7a83/pdf)
