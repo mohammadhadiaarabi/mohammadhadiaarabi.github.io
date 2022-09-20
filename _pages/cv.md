@@ -30,7 +30,6 @@ I founded the junior research group at the Student Scientific Research Center, T
 <br />
 * 2015-2016 Researcher, [Basir Eye Health Research Center](https://behrc.ir/)
 
-
 Honors
 ======
 
