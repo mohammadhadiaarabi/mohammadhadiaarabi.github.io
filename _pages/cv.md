@@ -29,7 +29,7 @@ Skills
 ======
 * Expert in Matlab Programming
 * Expert in Diffusion MRI analysis
-* ExploreDTI, Brain Connectivity Toolbox, NBS Toolbox, MRVISTA (Stanford),Brain-Life Platform, FSL, SPM, Slicer, MITK Diffusion, Diffusion Toolkit, Medinria, MATLAB, MRtrix3 and CMTK
+* ExploreDTI, Brain Connectivity Toolbox, NBS Toolbox, MRVISTA (Stanford),Brain-Life Platform, FSL, SPM, Slicer, MITK Diffusion, Diffusion Toolkit, Medinria, MATLAB, MRtrix3 and CMTK 
 Publications
 ======
   <ul>{% for post in site.publications %}
