@@ -26,7 +26,8 @@ Work experience
 ======
 * 2020-Present PhD Researcher, Padova Neuroscience Center [(PNC)](https://pnc.unipd.it/)
 * 2013-2019 Senior Researcher, Students' Scientific Research Center, [Tehran University of Medical Sciences](https://en.tums.ac.ir/en) <br /><br />
-I founded the junior research group at the Student Scientific Research Center, Tehran University of Medical Sciences (TUMS) in 2013. As the director of this junior research group my job included a voluntary, part-time student research activity based in SSRC, TUMS and does not include employment or any financial benefits .<br />
+I founded the junior research group at the Student Scientific Research Center, Tehran University of Medical Sciences (TUMS) in 2013. As the director of this junior research group my job included a voluntary, part-time student research activity based in SSRC, TUMS and does not include employment or any financial benefits . <br />
+<br />
 * 2015-2016 Researcher, [Basir Eye Health Research Center](https://behrc.ir/)
 
 Conference Proceeding
