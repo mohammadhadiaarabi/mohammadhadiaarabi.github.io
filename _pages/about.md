@@ -13,4 +13,4 @@ I am Mohammad, PhD student in Neuroscience at
 
 My fields of interest falls in the area of image analysis for Magnetic Resonance Imaging (MRI) in Medicine.
 
-More specifically, the analysis of Diffusion MRI which can be used to investigate the microstructural organization in the human brain, tractography Human Brain Connectome.
+More specifically, the analysis of Diffusion MRI which can be used to investigate the microstructural organization in the human brain, tractography Human Brain Connectome .
