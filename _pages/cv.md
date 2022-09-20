@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-CV
+
 ======
 
 You can download my full CV [here] (last update: 09/01/2022).
