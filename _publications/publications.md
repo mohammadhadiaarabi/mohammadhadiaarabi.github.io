@@ -46,3 +46,26 @@ Publications (Published)(* Correspond Author, 1 Co-first Author)
 
 * Moghaddam HS, Mohammadi E, Dolatshahi M, Mohebi F, Ashrafi A, Khazaie H, Aarabi MH* (2020) White matter microstructural abnormalities in primary insomnia: A systematic review of diffusion tensor imaging studies. Progress in Neuro-Psychopharmacology and Biological Psychiatry:110132.
 [doi](https://doi.org/10.1016/j.pnpbp.2020.110132)
+
+2020
+======
+* Rahmani F, Sanjari Moghaddam H, Aarabi MH* (2020) Intact microstructure of the right corticostriatal pathway predicts creative ability in healthy adults. Brain and Behavior:e01895.
+[doi](https://doi.org/10.1002/brb3.1895)
+
+* Mohammadi S, Moosaie F, Aarabi MH* (2020) Understanding the Immunologic Characteristics of Neurologic Manifestations of SARS-CoV-2 and Potential Immunological Mechanisms. Molecular Neurobiology.
+[doi](https://doi.org/10.1007/s12035-020-02094-y)
+
+* Sanjari Moghaddam H, Mehrabinejad M-M, Mohebi F, Hajighadery A, Maroufi SF, Rahimi R, Aarabi MH* (2020) Microstructural white matter alterations and personality traits: A diffusion MRI study. Journal of Research in Personality 88:104010.
+[doi](https://doi.org/10.1016/j.jrp.2020.104010)
+
+* Moghaddam HS, Aarabi MH, Mehvari-Habibabadi J, Sharifpour R, Mohajer B, Mohammadi-Mobarakeh N, Hashemi-Fesharaki SS, Elisevich K, Nazem-Zadeh M-R (2020) Distinct patterns of hippocampal subfield volume loss in left and right mesial temporal lobe epilepsy. Neurological Sciences.
+[doi](https://doi.org/10.1007/s10072-020-04653-6)
+
+* Sanjari Moghaddam H, Dolatshahi M, Mohebi F, Aarabi MH* (2020) Structural white matter alterations as compensatory mechanisms in Parkinson's disease: A systematic review of diffusion tensor imaging studies. Journal of Neuroscience Research 98 (7):1398-1416.
+[doi](https://doi.org/10.1002/jnr.24617)
+
+* Ashraf-ganjouei A, Moradi K, Bagheri S, Aarabi MH (2020) The association between systemic inflammation and cognitive performance in healthy adults. Journal of Neuroimmunology 345:577272.
+[doi](https://doi.org/10.1016/j.jneuroim.2020.577272)
+
+* Rahmani F, Sanjari Moghaddam H, Rahmani M, Aarabi MH* (2020) Metabolic connectivity in Alzheimer’s diseases. Clinical and Translational Imaging 8 (3):157-166.
+[doi](https://doi.org/10.1007/s40336-020-00371-3)
