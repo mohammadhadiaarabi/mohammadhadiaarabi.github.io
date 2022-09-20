@@ -11,31 +11,25 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Marie Skłodowska-Curie Ph.D., Neuroscience, 2020-2024,University of Padova
+(Supervisor: Professor.Maurizio Corbetta)
+* M.Sc., Biomedical Engineering, 2012-2015,Tehran University of Medical Science
+* B.Sc., Electronic Engineering, 2007-2012,University of Tehran
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+*
+* 2020-Present PhD Researcher, Padova Neuroscience Center (PNC)
+* 2013-2019 Senior Researcher, Students' Scientific Research Center, Tehran University of Medical Sciences
+I founded the junior research group at the Student Scientific Research Center, Tehran University of Medical Sciences (TUMS) in 2013. As the director of this junior research group my job included a voluntary, part-time student research activity based in SSRC, TUMS and does not include employment or any financial benefits.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2015-2016 Researcher, Basir Eye Health Research Center
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+* Expert in Matlab Programming
+* Expert in Diffusion MRI analysis
+* ExploreDTI, Brain Connectivity Toolbox, NBS Toolbox, MRVISTA (Stanford),Brain-Life Platform, FSL, SPM, Slicer, MITK Diffusion, Diffusion Toolkit, Medinria, MATLAB, MRtrix3 and CMTK
 Publications
 ======
   <ul>{% for post in site.publications %}
