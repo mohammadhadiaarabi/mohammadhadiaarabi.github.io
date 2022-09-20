@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am Mohammad, PhD student in Neuroscience at the
-Padova Neuroscience Center.
+I am Mohammad, PhD student in Neuroscience at
+[Padova Neuroscience Center](https://pnc.unipd.it).
 
 My fields of interest falls in the area of image analysis for Magnetic Resonance Imaging (MRI) in Medicine.
 
