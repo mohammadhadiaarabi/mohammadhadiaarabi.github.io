@@ -9,22 +9,43 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my full CV [here](https://github.com/benedetta-mariani/benedetta-mariani.github.io/blob/master/files/CV_Mariani_Benedetta.pdf) (last update: 29/10/2021).
+CV
+You can download my full CV here (last update: 09/01/2022).
 
 Education
-======
-* M.S. in Physics of Complex Systems, University of Turin, October 2019
-* B.S. in Physics, University of Padova, December 2017
+Marie Skłodowska-Curie Ph.D., Neuroscience, 2020-2024,University of Padova
+(Supervisor: Professor.Maurizio Corbetta)
+M.Sc., Biomedical Engineering, 2012-2015,Tehran University of Medical Science
+B.Sc., Electronic Engineering, 2007-2012,University of Tehran
+Research interest
+My fields of interest falls in the area of image acquisition and analysis for Magnetic Resonance Imaging (MRI) in Medicine.
+More specifically, the analysis of Diffusion MRI which can be used to investigate the microstructural organization in the human brain, tractography Human Brain Connectome.
+Work Experience
+2020-Present PhD Researcher, Padova Neuroscience Center (PNC)
+2013-2019 Senior Researcher, Students' Scientific Research Center, Tehran University of Medical Sciences
+I founded the junior research group at the Student Scientific Research Center, Tehran University of Medical Sciences (TUMS) in 2013. As the director of this junior research group my job included a voluntary, part-time student research activity based in SSRC, TUMS and does not include employment or any financial benefits.
 
-Research experience
-======
-* October 2020-present: PhD student in Neuroscience at Padova Neuroscience Center
-* December 2019-September 2020: Scholarship holder at University of Padova
+2015-2016 Researcher, Basir Eye Health Research Center
+Conference Proceeding
+Somayeh Mohyammadi Jooyandeh, Aida Kamalian,Sepideh Shiranvand,Mahsa Dolatshahi, Mohammad Hadi Shadmehr, Thomas C. Baghai,Farzaneh Rahmani,Ahmad Shojaie,Mohammad H. Aarabi Evaluation of the Areas Involved in Visual Cortex in Parkinson's Disease Using Diffusion Tensor Imaging, Proceedings of the Ophthalmic Medical Image Analysis Third International Workshop (OMIA 2016) (correspond)
 
-Programming skills
-======
-* Python: advanced
-* C++, R, Mathematica: medium
+Ali Anjomshoa, Mahsa Dolatshahi, Fatemeh Amirkhani, Farzaneh Rahmani, Mehdi Mirbagheri and Mohammad Hadi Aarabi*, Structural Brain Network Analysis in Schizophrenia Using Minimum Spanning Tree, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(correspond)
+
+Farzaneh Rahmani, Mina Ansari, Atefeh Pooyan, Mehdi Mirbagheri and Mohammad Hadi Aarabi*, Brain Pathway Differences between Parkinson Patients with or without REM Sleep Disorder, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology(correspond)
+
+Mohammad Hadi Aarabi*, Aida Kamalian, Bahram Mohajer, Mahdi Shirin Shandiz, Ahmad Shojaie, Hamidreza Safabakhsh, A Statistical Approach in Human Brain Connectome of Parkinson Disease in Elderly People Using Network Based Statistics, 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society.
+
+MH Aarabi, N Salehi, AF Kazerooni and HS Rad. A High Throughput and Efficient Visualization Method for Diffusion Tensor Imaging of Human Brain Employing Diffusion-Map Space, 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC’14), Chicago, Illinois, USA.
+Honors
+No. 1: M.Sc., institutional, Tehran University of Medical Science (TUMS), 2012 – 2015 6th Place: Entrance Exam of M.Sc., Ministry of Health and Medical Education, 2012 310th Place: Nationwide entrance exam of universities, national, 2007
+
+Ad-hoc Reviewer
+Human Brain Mapping, European Radiology, Brain Imaging and Behavior, Parkinsonim and Related Disoder, Scientific Report
+
+Skill
+Expert in Matlab Programming
+Expert in Diffusion MRI analysis
+ExploreDTI, Brain Connectivity Toolbox, NBS Toolbox, MRVISTA (Stanford),Brain-Life Platform, FSL, SPM, Slicer, MITK Diffusion, Diffusion Toolkit, Medinria, MATLAB, MRtrix3 and CMTK
 
 Publications
 ======
