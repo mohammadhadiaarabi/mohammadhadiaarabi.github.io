@@ -30,17 +30,6 @@ I founded the junior research group at the Student Scientific Research Center, T
 <br />
 * 2015-2016 Researcher, [Basir Eye Health Research Center](https://behrc.ir/)
 
-Conference Proceeding
-======
-* Somayeh Mohyammadi Jooyandeh, Aida Kamalian,Sepideh Shiranvand,Mahsa Dolatshahi, Mohammad Hadi Shadmehr, Thomas C. Baghai,Farzaneh Rahmani,Ahmad Shojaie,Mohammad H. Aarabi Evaluation of the Areas Involved in Visual Cortex in Parkinson's Disease Using Diffusion Tensor Imaging, Proceedings of the Ophthalmic Medical Image Analysis Third International Workshop (OMIA 2016) (correspond)
-
-* Ali Anjomshoa, Mahsa Dolatshahi, Fatemeh Amirkhani, Farzaneh Rahmani, Mehdi Mirbagheri and Mohammad Hadi Aarabi*, Structural Brain Network Analysis in Schizophrenia Using Minimum Spanning Tree, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(correspond)
-
-* Farzaneh Rahmani, Mina Ansari, Atefeh Pooyan, Mehdi Mirbagheri and Mohammad Hadi Aarabi*, Brain Pathway Differences between Parkinson Patients with or without REM Sleep Disorder, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology(correspond)
-
-* Mohammad Hadi Aarabi*, Aida Kamalian, Bahram Mohajer, Mahdi Shirin Shandiz, Ahmad Shojaie, Hamidreza Safabakhsh, A Statistical Approach in Human Brain Connectome of Parkinson Disease in Elderly People Using Network Based Statistics, 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society.
-
-* MH Aarabi, N Salehi, AF Kazerooni and HS Rad. A High Throughput and Efficient Visualization Method for Diffusion Tensor Imaging of Human Brain Employing Diffusion-Map Space, 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC’14), Chicago, Illinois, USA.
 
 Honors
 ======
