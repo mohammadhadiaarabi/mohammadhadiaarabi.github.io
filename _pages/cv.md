@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 You can download my full CV [here](https://github.com/mohammadhadiaarabi/mohammadhadiaarabi.github.io/blob/master/files/cv.pdf)
 (last update: 09/01/2022).
 
