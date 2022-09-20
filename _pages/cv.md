@@ -27,9 +27,9 @@ More specifically, the analysis of Diffusion MRI which can be used to investigat
 Work experience
 ======
 * 2020-Present PhD Researcher, Padova Neuroscience Center [(PNC)](https://pnc.unipd.it/)
-* 2013-2019 Senior Researcher, Students' Scientific Research Center, [Tehran University of Medical Sciences](https://en.tums.ac.ir/en) <br />
+* 2013-2019 Senior Researcher, Students' Scientific Research Center, [Tehran University of Medical Sciences](https://en.tums.ac.ir/en) <br /><br />
 I founded the junior research group at the Student Scientific Research Center, Tehran University of Medical Sciences (TUMS) in 2013. As the director of this junior research group my job included a voluntary, part-time student research activity based in SSRC, TUMS and does not include employment or any financial benefits .
-* 2015-2016 Researcher, Basir Eye Health Research Center
+* 2015-2016 Researcher, [Basir Eye Health Research Center](https://behrc.ir/)
 
 Conference Proceeding
 ======
@@ -42,6 +42,16 @@ Conference Proceeding
 * Mohammad Hadi Aarabi*, Aida Kamalian, Bahram Mohajer, Mahdi Shirin Shandiz, Ahmad Shojaie, Hamidreza Safabakhsh, A Statistical Approach in Human Brain Connectome of Parkinson Disease in Elderly People Using Network Based Statistics, 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society.
 
 * MH Aarabi, N Salehi, AF Kazerooni and HS Rad. A High Throughput and Efficient Visualization Method for Diffusion Tensor Imaging of Human Brain Employing Diffusion-Map Space, 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC’14), Chicago, Illinois, USA.
+
+Honors
+======
+
+No. 1: M.Sc., institutional, Tehran University of Medical Science (TUMS), 2012 – 2015 6th Place: Entrance Exam of M.Sc., Ministry of Health and Medical Education, 2012 310th Place: Nationwide entrance exam of universities, national, 2007
+
+Ad-hoc Reviewer
+======
+
+Human Brain Mapping, European Radiology, Brain Imaging and Behavior, Parkinsonim and Related Disoder, Scientific Report
 
 Skills
 ======
