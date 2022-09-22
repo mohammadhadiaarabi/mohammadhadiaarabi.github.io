@@ -55,7 +55,125 @@ author_profile: true
 2020
 ======
 * Rahmani F, Sanjari Moghaddam H, Aarabi MH* (2020) Intact microstructure of the right corticostriatal pathway predicts creative ability in healthy adults. Brain and Behavior:e01895.
-[doi](10.1002/brb3.1895)
+[doi](https://doi.org/10.1002/brb3.1895)
+
+* Mohammadi S, Moosaie F, Aarabi MH* (2020) Understanding the Immunologic Characteristics of Neurologic Manifestations of SARS-CoV-2 and Potential Immunological Mechanisms. Molecular Neurobiology.
+[doi](https://doi.org/10.1007/s12035-020-02094-y)
+
+* Sanjari Moghaddam H, Mehrabinejad M-M, Mohebi F, Hajighadery A, Maroufi SF, Rahimi R, Aarabi MH* (2020) Microstructural white matter alterations and personality traits: A diffusion MRI study. Journal of Research in Personality 88:104010.
+[doi](https://doi.org/10.1016/j.jrp.2020.104010)
+
+* Moghaddam HS, Aarabi MH, Mehvari-Habibabadi J, Sharifpour R, Mohajer B, Mohammadi-Mobarakeh N, Hashemi-Fesharaki SS, Elisevich K, Nazem-Zadeh M-R (2020) Distinct patterns of hippocampal subfield volume loss in left and right mesial temporal lobe epilepsy. Neurological Sciences.
+[doi](https://doi.org/10.1007/s10072-020-04653-6)
+
+* Sanjari Moghaddam H, Dolatshahi M, Mohebi F, Aarabi MH* (2020) Structural white matter alterations as compensatory mechanisms in Parkinson's disease: A systematic review of diffusion tensor imaging studies. Journal of Neuroscience Research 98 (7):1398-1416.
+[doi](https://doi.org/10.1002/jnr.24617)
+
+* Ashraf-ganjouei A, Moradi K, Bagheri S, Aarabi MH (2020) The association between systemic inflammation and cognitive performance in healthy adults. Journal of Neuroimmunology 345:577272.
+[doi](https://doi.org/10.1016/j.jneuroim.2020.577272)
+
+* Rahmani F, Sanjari Moghaddam H, Rahmani M, Aarabi MH* (2020) Metabolic connectivity in Alzheimer’s diseases. Clinical and Translational Imaging 8 (3):157-166.
+[doi](https://doi.org/10.1007/s40336-020-00371-3)
+
+2019
+======
+* Sanjari Moghadam H, Ghazi Sherbaf F, Aarabi MH* (2019) Brain Microstructural Abnormalities in Type 2 Diabetes Mellitus: A Systematic Review of Diffusion Tensor Imaging Studies. Frontiers in Neuroendocrinology:100782.
+[doi](https://doi.org/10.1016/j.yfrne.2019.100782)
+
+* Rahmani F, Sanjari Moghaddam H, Aarabi MH* (2019) Microstructural changes and internet addiction behaviour: A preliminary diffusion MRI study. Addictive Behaviors 98:106039.
+[doi](https://doi.org/10.1016/j.addbeh.2019.106039)
+
+* Mohajer B, Masoudi M, Ashrafi A, Mohammadi E, Bayani Ershadi AS, Aarabi MH*, Uban KA (2019) Structural white matter alterations in male adults with high functioning autism spectrum disorder and concurrent depressive symptoms; a diffusion tensor imaging study. Journal of Affective Disorders 259:40-46.
+[doi](https://doi.org/10.1016/j.jad.2019.08.010)
+
+* Ashraf-Ganjouei A, Kheiri G, Masoudi M, Mohajer B, Mojtahed Zadeh M, Saberi P, Shirin Shandiz M, Aarabi MH* (2019) White Matter Tract Alterations in Drug-naïve Parkinson's Disease Patients with Excessive Daytime Sleepiness. Frontiers in neurology 10:378.
+[doi](https://doi.org/10.3389/fneur.2019.00378)
+
+
+* Ashraf-Ganjouei A, Rahmani F, Aarabi MH1, Moghaddam HS, Nazem-Zadeh M-R, Davoodi-Bojd E, Soltanian-Zadeh H (2019) White matter correlates of disease duration in patients with temporal lobe epilepsy: updated review of literature. Neurological Sciences.
+[doi](https://doi.org/10.1007/s10072-019-03818-2)
+
+* Sobhani, S., Rahmani, F., Aarabi, M. H.1, & Sadr, A. V. (2019). Exploring white matter microstructure and olfaction dysfunction in early parkinson disease: diffusion MRI reveals new insight. Brain Imaging and Behavior.
+[doi](https://doi.org/10.1007/s11682-017-9781-0)
+
+* Haghshomar, M., Rahmani, F., Hadi Aarabi, M1., Shahjouei, S., Sobhani, S., & Rahmani, M. (2019). White Matter Changes Correlates of Peripheral Neuroinflammation in Patients with Parkinson's Disease. Neuroscience.
+[doi](https://doi.org/10.1016/j.neuroscience.2017.10.050)
+
+* Ghazi Sherbaf, F., Mojtahed Zadeh, M., Haghshomar, M., & Aarabi, M. H*. (2019). Posterior limb of the internal capsule predicts poor quality of life in patients with Parkinson's disease: connectometry approach. Acta Neurol Belg.
+[doi](https://doi.org/10.1007/s13760-018-0910-3)
+
+* Sanjari Moghaddam H, Rahmani F, Aarabi MH1, Nazem-Zadeh M-R, Davoodi-Bojd E, Soltanian-Zadeh H (2019) White matter microstructural differences between right and left mesial temporal lobe epilepsy. Acta neurologica Belgica.
+[doi](https://doi.org/10.1007/s13760-019-01074-x)
+
+* Ansari, M., Adib Moradi, S., Ghazi Sherbaf, F., Hedayatnia, A., & Aarabi, M. H*. (2019). Comparison of structural connectivity in Parkinson's disease with depressive symptoms versus non-depressed: a diffusion MRI connectometry study. Int Psychogeriatr, 1-8.
+[doi](https://doi.org/10.1017/s1041610218000170)
+
+* Sanjari Moghaddam H, Dolatshahi M, Salardini E, Aarabi MH* (2019) Association of olfaction dysfunction with brain microstructure in prodromal Parkinson disease. Neurological Sciences.
+[doi](https://doi.org/10.1007/s10072-018-3629-2)
+
+* Ghazi Sherbaf F, Aarabi MH*, Hosein Yazdi M, Haghshomar M (2019) White matter microstructure in fetal alcohol spectrum disorders: A systematic review of diffusion tensor imaging studies. Human brain mapping 40 (3), 1017-1036.
+[doi](https://doi.org/10.1002/hbm.24409)
+
+2018
+======
+* Mayeli, M., Rahmani, F., & Aarabi, M. H*. (2018). Comprehensive Investigation of White Matter Tracts in Professional Chess Players and Relation to Expertise: Region of Interest and DMRI Connectometry. Frontiers in Neuroscience, 12(288).
+[doi](https://doi.org/10.3389/fnins.2018.00288)
+
+* Ghazi Sherbaf, F., Rahmani, F., Jooyandeh, S. M., & Aarabi, M. H*. (2018). Microstructural changes in patients with Parkinson disease and REM sleep behavior disorder: depressive symptoms versus non-depressed. Acta Neurol Belg.
+[doi](https://doi.org/10.1007/s13760-018-0896-x)
+
+* Mojtahed Zadeh, M., Ashraf-Ganjouei, A., Ghazi Sherbaf, F., Haghshomar, M., & Aarabi, M. H.* (2018). White Matter Tract Alterations in Drug-Naive Parkinson's Disease Patients With Impulse Control Disorders. Front Neurol, 9, 163.
+[doi](https://doi.org/10.3389/fneur.2018.00163)
+
+* Ghazi Sherbaf, F., Same, K., Ashraf-Ganjouei, A., & Aarabi, M. H.* (2018). Altered white matter microstructure associated with mild and moderate depressive symptoms in young adults, a diffusion tensor imaging study. Neuroreport, 29(8), 685-689.
+[doi](https://doi.org/10.1097/wnr.0000000000001017)
+
+* Sanjari Moghaddam, H., Ghazi Sherbaf, F., Mojtahed Zadeh, M., Ashraf-Ganjouei, A., & Aarabi, M. H*. (2018). Association Between Peripheral Inflammation and DATSCAN Data of the Striatal Nuclei in Different Motor Subtypes of Parkinson Disease. Front Neurol, 9, 234.
+[doi](https://doi.org/10.3389/fneur.2018.00234)
+
+* Moghaddam, H. S., & Aarabi, M. H. (2018). Synaptotagmin-11 Is a novel hotspot in the pathogenesis of parkin-linked Parkinson's disease: New implications for clinical targeting. Movement Disorders, 33(4), 582-582. doi:
+[doi](https://doi.org/10.1002/mds.27369)
+
+* Ghazi Sherbaf, F., Rostam Abadi, Y., Mojtahed Zadeh, M., Ashraf-Ganjouei, A., Sanjari Moghaddam, H., & Aarabi, M. H.* (2018). Microstructural Changes in Patients With Parkinson's Disease Comorbid With REM Sleep Behaviour Disorder and Depressive Symptoms. Front Neurol, 9, 441.
+[doi](https://doi.org/10.3389/fneur.2018.00441)
+
+* Sanjari Moghaddam, H., Valitabar, Z., Ashraf-Ganjouei, A., Mojtahed Zadeh, M., Ghazi Sherbaf, F., & Aarabi, M. H.* (2018). Cerebrospinal Fluid C-Reactive Protein in Parkinson’s Disease: Associations with Motor and Non-motor Symptoms. NeuroMolecular Medicine.
+[doi](https://doi.org/10.1007/s12017-018-8499-5)
+
+* Ghazi Sherbaf, F., Same, K., & Aarabi, M. H.* (2018). High angular resolution diffusion imaging correlates of depression in Parkinson's disease: a connectometry study. Acta Neurol Belg.
+[doi](https://doi.org/10.1007/s13760-018-0937-5)
+
+* Sanjari Moghaddam, H., & Aarabi, M. H. (2018). Aβ-Mediated Dysregulation of F-Actin Nanoarchitecture Leads to Loss of Dendritic Spines and Alzheimer's Disease-Related Cognitive Impairments. The Journal of Neuroscience, 38(26), 5840-5842.
+[doi](https://doi.org/10.1523/jneurosci.0844-18.2018)
+
+* Dolatshahi, M., Pourmirbabaei, S., Kamalian, A., Ashraf-Ganjouei, A., Yaseri, M., & Aarabi, M. H.* (2018). Longitudinal Alterations of Alpha-Synuclein, Amyloid Beta, Total, and Phosphorylated Tau in Cerebrospinal Fluid and Correlations Between Their Changes in Parkinson's Disease. Front Neurol, 9, 560.
+[doi](https://doi.org/10.3389/fneur.2018.00560)
+
+* Ashraf-Ganjouei A, Majd A, Javinani A, Aarabi MH* (2018) Autonomic dysfunction and white matter microstructural changes in drug-naïve patients with Parkinson’s disease. PeerJ 6:e5539.
+[doi](https://doi.org/10.7717/peerj.5539)
+
+* Ghazi Sherbaf F, Mohajer B, Ashraf-Ganjouei A, Mojtahed Zadeh M, Javinani A, Sanjari Moghaddam H, Shirin Shandiz M, Aarabi MH* (2018) Serum Insulin-Like Growth Factor-1 in Parkinson's Disease; Study of Cerebrospinal Fluid Biomarkers and White Matter Microstructure. Frontiers in Endocrinology 9 (608).
+[doi](https://doi.org/10.3389/fendo.2018.00608)
+
+* Sanjari Moghaddam H, Aarabi MH* (2018) Wild-type LRRK2 as a new potential therapeutic target in idiopathic Parkinson's disease. Movement Disorders .
+[doi](https://doi.org/10.1002/mds.27509)
+
+* Haghshomar, M., Dolatshahi, M., Ghazi Sherbaf, F., Sanjari Moghaddam, H., Shirin Shandiz, M., & Aarabi, M. H.* (2018). Disruption of Inferior Longitudinal Fasciculus Microstructure in Parkinson's Disease: A Systematic Review of Diffusion Tensor Imaging Studies. Front Neurol, 9(598).
+[doi](https://doi.org/10.3389/fneur.2018.00598)
+
+2017
+======
+* Same K, Ghazi Sherbaf F, Aarabi MH (2017) New link between Parkinson's and Alzheimer's: Research uncovers the role of mutant leucine rich repeat kinase 2 and amyloid precursor protein. Movement Disorders 32 (10):1378-1379.
+[doi](https://doi.org/10.1002/mds.27170)
+
+* Rahmani, F., & Aarabi, M. H.* (2017). Does apolipoprotein A1 predict microstructural changes in subgenual cingulum in early Parkinson? Journal of Neurology, 264(4), 684-693.
+[doi](https://doi.org/10.1007/s00415-017-8403-5)
+
+* Ansari, M., Rahmani, F., Dolatshahi, M., Pooyan, A., & Aarabi, M. H. (2017). Brain pathway differences between Parkinson’s disease patients with and without REM sleep behavior disorder. Sleep and Breathing, 21(1), 155-161.
+[doi](https://doi.org/10.1007/s11325-016-1435-8)
+
+* Rahmani, F., Kamalian, A., & Aarabi, M. H. (2017). New evidence comes to light: How is α-synuclein aggregation related to mitochondrial protein import in Parkinson's disease? Movement Disorders, 32(1), 107-107.
+[doi](https://doi.org/10.1002/mds.26889)
 
 
 
