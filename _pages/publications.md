@@ -52,6 +52,11 @@ author_profile: true
 * Moghaddam HS, Mohammadi E, Dolatshahi M, Mohebi F, Ashrafi A, Khazaie H, Aarabi MH* (2020) White matter microstructural abnormalities in primary insomnia: A systematic review of diffusion tensor imaging studies. Progress in Neuro-Psychopharmacology and Biological Psychiatry:110132.
 [doi](https://doi.org/10.1016/j.pnpbp.2020.110132)
 
+2020
+======
+* Rahmani F, Sanjari Moghaddam H, Aarabi MH* (2020) Intact microstructure of the right corticostriatal pathway predicts creative ability in healthy adults. Brain and Behavior:e01895.
+[doi](10.1002/brb3.1895)
+
 
 
 {% if author.googlescholar %}
