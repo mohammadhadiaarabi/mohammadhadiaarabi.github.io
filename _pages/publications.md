@@ -191,4 +191,3 @@ Publications (Published)(* Correspond Author, 1 Co-first Author)
   {% include archive-single.html %}
 {% endfor %}
 
-
