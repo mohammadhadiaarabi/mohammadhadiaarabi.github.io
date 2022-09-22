@@ -4,6 +4,10 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
+Publications (Published)(* Correspond Author, 1 Co-first Author)
+
+
 2022
 ======
 * Seyedmirzaei H, Shafie M, Kargar A, Golbahari A, Bijarchian M, Ahmadi S, et al. White matter tracts associated with alexithymia and emotion regulation: A diffusion MRI study. Journal of Affective Disorders. 2022;314:271-80.
