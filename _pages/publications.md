@@ -52,6 +52,11 @@ author_profile: true
 * Moghaddam HS, Mohammadi E, Dolatshahi M, Mohebi F, Ashrafi A, Khazaie H, Aarabi MH* (2020) White matter microstructural abnormalities in primary insomnia: A systematic review of diffusion tensor imaging studies. Progress in Neuro-Psychopharmacology and Biological Psychiatry:110132.
 [doi](https://doi.org/10.1016/j.pnpbp.2020.110132)
 
+2019
+======
+* Sanjari Moghadam H, Ghazi Sherbaf F, Aarabi MH* (2019) Brain Microstructural Abnormalities in Type 2 Diabetes Mellitus: A Systematic Review of Diffusion Tensor Imaging Studies. Frontiers in Neuroendocrinology:100782.
+[doi](https://doi.org/10.1016/j.yfrne.2019.100782)
+
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
