@@ -4,14 +4,13 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
+2022
+======
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 {% include base_path %}
-2022
-======
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
