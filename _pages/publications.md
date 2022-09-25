@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+You can find all my papers on my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=qDm9TF0AAAAJ&view_op=list_works&sortby=pubdate)
+
 Publications (Published)(* Correspond Author, 1 Co-first Author)
 
 
