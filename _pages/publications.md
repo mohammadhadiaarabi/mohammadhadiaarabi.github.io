@@ -191,5 +191,5 @@ Publications (Published)(* Correspond Author, 1 Co-first Author)
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} 
 
