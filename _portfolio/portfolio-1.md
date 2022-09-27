@@ -4,7 +4,6 @@ excerpt: "Short description of portfolio item number 1<br/><img src='/images/500
 collection: portfolio
 ---
 
-Portfolio item number 1
 "Portfolio item number 1<br/><img src='/images/photo_2022-09-26_10-31-26.jpg'>"
 
 <!-- 
