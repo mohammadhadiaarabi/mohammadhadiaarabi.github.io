@@ -19,7 +19,6 @@ author_profile: true
 
 <img src='/images/photo_2022-09-26_10-30-59.jpg' width='900' height='700'>
 
-<img src='/images/photo_2022-09-26_10-29-47.jpg' width='900' height='700'>
 
 {% include base_path %}
 {% for post in site.portfolio %}
