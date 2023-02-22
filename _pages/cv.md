@@ -7,9 +7,6 @@ redirect_from:
   - /resume
 ---
 
-You can download my full CV [here](https://github.com/mohammadhadiaarabi/mohammadhadiaarabi.github.io/blob/master/files/cv.pdf)
-(last update: 09/01/2022).
-
 Education
 ======
 * Marie Skłodowska-Curie Ph.D., Neuroscience, 2020-2024,[University of Padova](https://www.unipd.it/en/)
