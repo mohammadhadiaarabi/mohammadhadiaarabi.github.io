@@ -15,7 +15,6 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 
 * Sinaeifar, Z., Mayeli, M., Shafie, M., Pooyan, A., Cattarinussi, G., Aarabi, M. H., & Sambataro, F. (2023). Trait anger representation in microstructural white matter tracts: A diffusion MRI study. J Affect Disord, 322, 249-257.[doi](https://doi.org/10.1016/j.jad.2022.11.020)
 
-*
 * Cattarinussi, G., Moghaddam, H. S., Aarabi, M. H., Squarcina, L., Sambataro, F., Brambilla, P., & Delvecchio, G. (2022). White Matter Microstructure Associated with the Antidepressant Effects of Deep Brain Stimulation in Treatment-Resistant Depression: A Review of Diffusion Tensor Imaging Studies. International Journal of Molecular Sciences, 23(23), 15379.[doi](https://www.mdpi.com/1422-0067/23/23/15379)
 
 2022
