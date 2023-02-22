@@ -8,9 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am Mohammad, PhD student in Neuroscience at
-[Padova Neuroscience Center](https://pnc.unipd.it).
-
-My fields of interest falls in the area of image analysis for Magnetic Resonance Imaging (MRI) in Medicine.
-
-More specifically, the analysis of Diffusion MRI which can be used to investigate the microstructural organization in the human brain, tractography Human Brain Connectome .
+My research interests lie in the field of medical Magnetic Resonance Imaging (MRI) analysis, specifically in the area of Diffusion MRI. I am particularly interested in using this technique to study the microstructural organization of the human brain, as well as investigating brain connectivity using tractography and connectome analysis. My research aims to provide a deeper understanding of the neural mechanisms underlying brain function, particularly in relation to health and disease .
