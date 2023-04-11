@@ -12,7 +12,7 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 2023
 ======
 
-* Dolatshahi M, Sanjari Moghaddam H, Saberi P, Mohammadi S, Hadi Aarabi M. Central Nervous System Microstructural Alterations in Type 1 Diabetes Mellitus: A Systematic Review of Diffusion Tensor Imaging Studies. Diabetes Research and Clinical Practice. 2023:110645. [doi](https://doi.org/10.1016)/j.diabres.2023.110645.
+* Dolatshahi M, Sanjari Moghaddam H, Saberi P, Mohammadi S, Hadi Aarabi M. Central Nervous System Microstructural Alterations in Type 1 Diabetes Mellitus: A Systematic Review of Diffusion Tensor Imaging Studies. Diabetes Research and Clinical Practice. 2023:110645. [doi](https://doi.org/10.1016/j.diabres.2023.110645)
 
 * Mallahzadeh A, Shafie M, Tahvilian M, Sadeghi M, Moslemian G, Barzin P, et al. White matter tracts alterations underpinning reward and conflict processing. Journal of Affective Disorders. 2023;331:251-8. [doi](https://doi.org/10.1016/j.jad.2023.03.070)
 
