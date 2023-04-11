@@ -11,6 +11,13 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 
 2023
 ======
+
+* Dolatshahi M, Sanjari Moghaddam H, Saberi P, Mohammadi S, Hadi Aarabi M. Central Nervous System Microstructural Alterations in Type 1 Diabetes Mellitus: A Systematic Review of Diffusion Tensor Imaging Studies. Diabetes Research and Clinical Practice. 2023:110645. [doi](https://doi.org/10.1016)/j.diabres.2023.110645.
+
+* Mallahzadeh A, Shafie M, Tahvilian M, Sadeghi M, Moslemian G, Barzin P, et al. White matter tracts alterations underpinning reward and conflict processing. Journal of Affective Disorders. 2023;331:251-8. [doi](https://doi.org/10.1016/j.jad.2023.03.070)
+
+* Rashidi F, Khanmirzaei MH, Hosseinzadeh F, Kolahchi Z, Jafarimehrabady N, Moghisseh B, et al. Cingulum and Uncinate Fasciculus Microstructural Abnormalities in Parkinson&rsquo;s Disease: A Systematic Review of Diffusion Tensor Imaging Studies. Biology. 2023;12(3):475.
+
 * Abdolalizadeh, A., Dabbagh Ohadi, M. A., Bayani Ershadi, A. S., & Aarabi, M. H. (2022). Graph Theoretical Approach to Brain Remodeling in Multiple Sclerosis. Network Neuroscience, 1-28. [doi](https://doi.org/10.1162/netn_a_00276)
 
 * Sinaeifar, Z., Mayeli, M., Shafie, M., Pooyan, A., Cattarinussi, G., Aarabi, M. H., & Sambataro, F. (2023). Trait anger representation in microstructural white matter tracts: A diffusion MRI study. J Affect Disord, 322, 249-257.[doi](https://doi.org/10.1016/j.jad.2022.11.020)
