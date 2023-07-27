@@ -11,6 +11,12 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 
 2023
 ======
+* Nabizadeh, F., & Aarabi, M. H.* (2023). Functional and structural lesion network mapping in neurological and psychiatric disorders: a systematic review [Systematic Review]. Frontiers in Neurology, 14. [doi](https://doi.org/10.3389/fneur.2023.1100067)
+
+* Ghazi, N., Aarabi, M. H., & Soltanian-Zadeh, H. (2023). Deep Learning Methods for Identification of White Matter Fiber Tracts: Review of State-of-the-Art and Future Prospective. Neuroinformatics. [doi](https://doi.org/10.1007/s12021-023-09636-4)
+
+* Seyedmirzaei H, Nabizadeh F, Aarabi MH, Pini L. Neurite Orientation Dispersion and Density Imaging in Multiple
+Sclerosis: A Systematic Review. Journal of Magnetic Resonance Imaging.n/a(n/a). [doi](https://doi.org/10.1002/jmri.28727)
 
 * Dolatshahi M, Sanjari Moghaddam H, Saberi P, Mohammadi S, Hadi Aarabi M. Central Nervous System Microstructural Alterations in Type 1 Diabetes Mellitus: A Systematic Review of Diffusion Tensor Imaging Studies. Diabetes Research and Clinical Practice. 2023:110645. [doi](https://doi.org/10.1016/j.diabres.2023.110645)
 
