@@ -11,7 +11,7 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 
 2024
 ======
-*Moghaddam HS, Parsaei M, Taghavizanjani F, Cattarinussi G, Aarabi MH, Sambataro F. White matter alterations in affective and non-affective early psychosis: A diffusion MRI study. Journal of Affective Disorders. 2024. [doi](https://doi.org/10.1016/j.jad.2024.01.23)
+* Moghaddam HS, Parsaei M, Taghavizanjani F, Cattarinussi G, Aarabi MH, Sambataro F. White matter alterations in affective and non-affective early psychosis: A diffusion MRI study. Journal of Affective Disorders. 2024. [doi](https://doi.org/10.1016/j.jad.2024.01.23)
 
 2023
 ======
