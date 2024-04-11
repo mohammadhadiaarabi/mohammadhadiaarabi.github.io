@@ -11,6 +11,8 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 
 2024
 ======
+* Nabizadeh F, Pirahesh K, Aarabi MH, Wennberg A, Pini L. Behavioral and dysexecutive variant of Alzheimer’s disease: insights from structural and molecular imaging studies. Heliyon. 2024 Apr;e29420. [doi](https://doi.org/10.1016/j.heliyon.2024.e29420)
+
 * Moghaddam HS, Parsaei M, Taghavizanjani F, Cattarinussi G, Aarabi MH, Sambataro F. White matter alterations in affective and non-affective early psychosis: A diffusion MRI study. Journal of Affective Disorders. 2024. [doi](https://doi.org/10.1016/j.jad.2024.01.23)
 
 2023
