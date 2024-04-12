@@ -6,8 +6,6 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-[Download CV as PDF](/blob/master/_pages/MohammadHadiAarabi.pdf)
-
 Education
 ======
 * Marie Skłodowska-Curie Ph.D., Neuroscience, 2020-2024,[University of Padova](https://www.unipd.it/en/)
