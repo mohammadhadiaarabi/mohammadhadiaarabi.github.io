@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-[Download CV as PDF](/MohammadHadiAarabi.pdf)
+[Download CV as PDF](/blob/master/_pages/MohammadHadiAarabi.pdf)
 
 Education
 ======
