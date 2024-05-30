@@ -14,6 +14,9 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 
 * Moghaddam HS, Parsaei M, Taghavizanjani F, Cattarinussi G, Aarabi MH, Sambataro F. White matter alterations in affective and non-affective early psychosis: A diffusion MRI study. Journal of Affective Disorders. 2024. [doi](https://doi.org/10.1016/j.jad.2024.01.23)
 
+* Rezaei, S., Seyedmirzaei, H., Gharepapagh, E., Mohagheghfard, F., Hasankhani, Z., Karbasi, M., Delavari, S., Aarabi, M.H., Effect of spaceflight experience on human brain structure, microstructure, and function: systematic review of neuroimaging studies. Brain Imaging and Behavior. 2024. [doi](https://doi.org/10.1007/s11682-024-00894-7)
+
+  
 2023
 ======
 * Nabizadeh, F., & Aarabi, M. H.* (2023). Functional and structural lesion network mapping in neurological and psychiatric disorders: a systematic review [Systematic Review]. Frontiers in Neurology, 14. [doi](https://doi.org/10.3389/fneur.2023.1100067)
