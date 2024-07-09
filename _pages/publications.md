@@ -11,10 +11,9 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 2024
 ======
 
-* Rezaei, S., Seyedmirzaei, H., Gharepapagh, E., Mohagheghfard, F., Hasankhani, Z., Karbasi, M., Delavari, S., Aarabi, M.H., Effect of spaceflight experience on human brain structure, microstructure, and function: systematic review of neuroimaging studies. Brain Imaging and Behavior. 2024. [doi](https://doi.org/10.1007/s11682-024-00894-7)
-* Nabizadeh F, Pirahesh K, Aarabi MH, Wennberg A, Pini L. Behavioral and dysexecutive variant of Alzheimer’s disease: insights from structural and molecular imaging studies. Heliyon. 2024 Apr;e29420. [doi](https://doi.org/10.1016/j.heliyon.2024.e29420)
-
-* Moghaddam HS, Parsaei M, Taghavizanjani F, Cattarinussi G, Aarabi MH, Sambataro F. White matter alterations in affective and non-affective early psychosis: A diffusion MRI study. Journal of Affective Disorders. 2024. [doi](https://doi.org/10.1016/j.jad.2024.01.23)
+* Rezaei, S., Seyedmirzaei, H., Gharepapagh, E., Mohagheghfard, F., Hasankhani, Z., Karbasi, M., Delavari, S., **Aarabi, MH**, Effect of spaceflight experience on human brain structure, microstructure, and function: systematic review of neuroimaging studies. Brain Imaging and Behavior. 2024. [doi](https://doi.org/10.1007/s11682-024-00894-7)
+* Nabizadeh F, Pirahesh K, **Aarabi MH**, Wennberg A, Pini L. Behavioral and dysexecutive variant of Alzheimer’s disease: insights from structural and molecular imaging studies. Heliyon. 2024 Apr;e29420. [doi](https://doi.org/10.1016/j.heliyon.2024.e29420)
+* Moghaddam HS, Parsaei M, Taghavizanjani F, Cattarinussi G, **Aarabi MH**, Sambataro F. White matter alterations in affective and non-affective early psychosis: A diffusion MRI study. Journal of Affective Disorders. 2024. [doi](https://doi.org/10.1016/j.jad.2024.01.23)
 
 
 
@@ -23,7 +22,7 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 ======
 * Nabizadeh, F., & Aarabi, M. H.* (2023). Functional and structural lesion network mapping in neurological and psychiatric disorders: a systematic review [Systematic Review]. Frontiers in Neurology, 14. [doi](https://doi.org/10.3389/fneur.2023.1100067)
 
-* Ghazi, N., Aarabi, M. H., & Soltanian-Zadeh, H. (2023). Deep Learning Methods for Identification of White Matter Fiber Tracts: Review of State-of-the-Art and Future Prospective. Neuroinformatics. [doi](https://doi.org/10.1007/s12021-023-09636-4)
+* Ghazi, N., **Aarabi MH**, & Soltanian-Zadeh, H. (2023). Deep Learning Methods for Identification of White Matter Fiber Tracts: Review of State-of-the-Art and Future Prospective. Neuroinformatics. [doi](https://doi.org/10.1007/s12021-023-09636-4)
 
 * Seyedmirzaei H, Nabizadeh F, Aarabi MH, Pini L. Neurite Orientation Dispersion and Density Imaging in Multiple
 Sclerosis: A Systematic Review. Journal of Magnetic Resonance Imaging.n/a(n/a). [doi](https://doi.org/10.1002/jmri.28727)
