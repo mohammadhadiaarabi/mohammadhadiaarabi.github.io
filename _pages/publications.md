@@ -11,7 +11,7 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 2024
 ======
 
-* Rezaei, S., Seyedmirzaei, H., Gharepapagh, E., Mohagheghfard, F., Hasankhani, Z., Karbasi, M., Delavari, S., **Aarabi, MH**, Effect of spaceflight experience on human brain structure, microstructure, and function: systematic review of neuroimaging studies. Brain Imaging and Behavior. 2024. [doi](https://doi.org/10.1007/s11682-024-00894-7)
+* Rezaei, S., Seyedmirzaei, H., Gharepapagh, E., Mohagheghfard, F., Hasankhani, Z., Karbasi, M., Delavari, S., **Aarabi, MH***, Effect of spaceflight experience on human brain structure, microstructure, and function: systematic review of neuroimaging studies. Brain Imaging and Behavior. 2024. [doi](https://doi.org/10.1007/s11682-024-00894-7)
 * Nabizadeh F, Pirahesh K, **Aarabi MH**, Wennberg A, Pini L. Behavioral and dysexecutive variant of Alzheimer’s disease: insights from structural and molecular imaging studies. Heliyon. 2024 Apr;e29420. [doi](https://doi.org/10.1016/j.heliyon.2024.e29420)
 * Moghaddam HS, Parsaei M, Taghavizanjani F, Cattarinussi G, **Aarabi MH**, Sambataro F. White matter alterations in affective and non-affective early psychosis: A diffusion MRI study. Journal of Affective Disorders. 2024. [doi](https://doi.org/10.1016/j.jad.2024.01.23)
 
@@ -20,24 +20,24 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
   
 2023
 ======
-* Nabizadeh, F., & Aarabi, M. H.* (2023). Functional and structural lesion network mapping in neurological and psychiatric disorders: a systematic review [Systematic Review]. Frontiers in Neurology, 14. [doi](https://doi.org/10.3389/fneur.2023.1100067)
+* Nabizadeh, F., & **Aarabi, MH.*** (2023). Functional and structural lesion network mapping in neurological and psychiatric disorders: a systematic review [Systematic Review]. Frontiers in Neurology, 14. [doi](https://doi.org/10.3389/fneur.2023.1100067)
 
 * Ghazi, N., **Aarabi MH**, & Soltanian-Zadeh, H. (2023). Deep Learning Methods for Identification of White Matter Fiber Tracts: Review of State-of-the-Art and Future Prospective. Neuroinformatics. [doi](https://doi.org/10.1007/s12021-023-09636-4)
 
-* Seyedmirzaei H, Nabizadeh F, Aarabi MH, Pini L. Neurite Orientation Dispersion and Density Imaging in Multiple
+* Seyedmirzaei H, Nabizadeh F, **Aarabi MH.**, Pini L. Neurite Orientation Dispersion and Density Imaging in Multiple
 Sclerosis: A Systematic Review. Journal of Magnetic Resonance Imaging.n/a(n/a). [doi](https://doi.org/10.1002/jmri.28727)
 
-* Dolatshahi M, Sanjari Moghaddam H, Saberi P, Mohammadi S, Hadi Aarabi M. Central Nervous System Microstructural Alterations in Type 1 Diabetes Mellitus: A Systematic Review of Diffusion Tensor Imaging Studies. Diabetes Research and Clinical Practice. 2023:110645. [doi](https://doi.org/10.1016/j.diabres.2023.110645)
+* Dolatshahi M, Sanjari Moghaddam H, Saberi P, Mohammadi S, **Aarabi MH**. Central Nervous System Microstructural Alterations in Type 1 Diabetes Mellitus: A Systematic Review of Diffusion Tensor Imaging Studies. Diabetes Research and Clinical Practice. 2023:110645. [doi](https://doi.org/10.1016/j.diabres.2023.110645)
 
 * Mallahzadeh A, Shafie M, Tahvilian M, Sadeghi M, Moslemian G, Barzin P, et al. White matter tracts alterations underpinning reward and conflict processing. Journal of Affective Disorders. 2023;331:251-8. [doi](https://doi.org/10.1016/j.jad.2023.03.070)
 
 * Rashidi F, Khanmirzaei MH, Hosseinzadeh F, Kolahchi Z, Jafarimehrabady N, Moghisseh B, et al. Cingulum and Uncinate Fasciculus Microstructural Abnormalities in Parkinson&rsquo;s Disease: A Systematic Review of Diffusion Tensor Imaging Studies. Biology. 2023;12(3):475.
 
-* Abdolalizadeh, A., Dabbagh Ohadi, M. A., Bayani Ershadi, A. S., & Aarabi, M. H. (2022). Graph Theoretical Approach to Brain Remodeling in Multiple Sclerosis. Network Neuroscience, 1-28. [doi](https://doi.org/10.1162/netn_a_00276)
+* Abdolalizadeh, A., Dabbagh Ohadi, M. A., Bayani Ershadi, A. S., & **Aarabi, M. H.** (2022). Graph Theoretical Approach to Brain Remodeling in Multiple Sclerosis. Network Neuroscience, 1-28. [doi](https://doi.org/10.1162/netn_a_00276)
 
-* Sinaeifar, Z., Mayeli, M., Shafie, M., Pooyan, A., Cattarinussi, G., Aarabi, M. H., & Sambataro, F. (2023). Trait anger representation in microstructural white matter tracts: A diffusion MRI study. J Affect Disord, 322, 249-257.[doi](https://doi.org/10.1016/j.jad.2022.11.020)
+* Sinaeifar, Z., Mayeli, M., Shafie, M., Pooyan, A., Cattarinussi, G., **Aarabi, M. H.**, & Sambataro, F. (2023). Trait anger representation in microstructural white matter tracts: A diffusion MRI study. J Affect Disord, 322, 249-257.[doi](https://doi.org/10.1016/j.jad.2022.11.020)
 
-* Parsaei M, Sanjari Moghaddam H, Aarabi MH. Sex differences in brain structures throughout the lifetime. Aging Brain. 2023;4:100098. [doi](https://doi.org/10.1016/j.nbas.2023.100098)
+* Parsaei M, Sanjari Moghaddam H, **Aarabi MH. ** Sex differences in brain structures throughout the lifetime. Aging Brain. 2023;4:100098. [doi](https://doi.org/10.1016/j.nbas.2023.100098)
 
 
 2022
