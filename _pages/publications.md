@@ -11,7 +11,7 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 2024
 ======
 
-* Fallahi MS, Sahebekhtiari K, Hosseini H, Aliasin MM, Noroozi M, Moghadam Fard A, **Aarabi MH**, Gulisashvili D, Shafie M, Mayeli M (2024) Distinct patterns of hippocampal subfield volumes predict coping strategies, emotion regulation, and impulsivity in healthy adults. Brain Imaging and Behavior. https://doi:10.1007/s11682-024-00904-8
+* Fallahi MS, Sahebekhtiari K, Hosseini H, Aliasin MM, Noroozi M, Moghadam Fard A, **Aarabi MH**, Gulisashvili D, Shafie M, Mayeli M (2024) Distinct patterns of hippocampal subfield volumes predict coping strategies, emotion regulation, and impulsivity in healthy adults. Brain Imaging and Behavior. [doi](https://10.1007/s11682-024-00904-8)
 * Rezaei, S., Seyedmirzaei, H., Gharepapagh, E., Mohagheghfard, F., Hasankhani, Z., Karbasi, M., Delavari, S., **Aarabi, MH***, Effect of spaceflight experience on human brain structure, microstructure, and function: systematic review of neuroimaging studies. Brain Imaging and Behavior. 2024. [doi](https://doi.org/10.1007/s11682-024-00894-7)
 * Nabizadeh F, Pirahesh K, **Aarabi MH**, Wennberg A, Pini L. Behavioral and dysexecutive variant of Alzheimer’s disease: insights from structural and molecular imaging studies. Heliyon. 2024 Apr;e29420. [doi](https://doi.org/10.1016/j.heliyon.2024.e29420)
 * Moghaddam HS, Parsaei M, Taghavizanjani F, Cattarinussi G, **Aarabi MH**, Sambataro F. White matter alterations in affective and non-affective early psychosis: A diffusion MRI study. Journal of Affective Disorders. 2024. [doi](https://doi.org/10.1016/j.jad.2024.01.23)
