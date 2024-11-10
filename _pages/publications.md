@@ -10,7 +10,7 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 
 2024
 ======
-* Seyedmirzaei H, Soltani Khaboushan A, Abdolalizadeh A, **Aarabi MH**. Microstructural alterations of cerebellar peduncles in multiple sclerosis: a diffusion tensor imaging study. Acta Neurologica Belgica. 2024. [doi](http://10.1007/s13760-024-02675-x).
+* Seyedmirzaei H, Soltani Khaboushan A, Abdolalizadeh A, **Aarabi MH**. Microstructural alterations of cerebellar peduncles in multiple sclerosis: a diffusion tensor imaging study. Acta Neurologica Belgica. 2024. [doi](https://doi.org/10.1007/s13760-024-02675-x).
 * Alilou S, Valizadeh P, KamaliZonouzi S, Salabat D, Jannatdoust P, Amanollahi M, et al. The Association Between C-reactive protein and Human Brain Microstructure: A Systematic Review of Diffusion Imaging Studies. Brain Behavior and Immunity Integrative. 2024:100092. [doi](https://doi.org/10.1016/j.bbii.2024.100092)
 * Rashidi F, Parsaei M, Kiani I, Sadri A, **Aarabi MH**, Darijani SR, et al. White matter correlates of impulsive behavior in healthy individuals: A diffusion magnetic resonance imaging study. Psychiatry and Clinical Neurosciences Reports. 2024;3(4):e70018. [doi](https://doi.org/10.1002/pcn5.70018)
 * Cattarinussi G, Grimaldi DA, **Aarabi MH**, Sambataro F. Static and Dynamic Dysconnectivity in Early Psychosis: Relationship With Symptom Dimensions. Schizophrenia Bulletin. 2024. [doi](https://doi.org/10.1093/schbul/sbae142)
