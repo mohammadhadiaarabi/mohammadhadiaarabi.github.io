@@ -6,6 +6,13 @@ author_profile: true
 ---
 
 You can find all my papers on my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=qDm9TF0AAAAJ&view_op=list_works&sortby=pubdate).
+2025
+======
+
+* Kiani I, **Aarabi MH**, Cattarinussi G, Sambataro F, Favalli V, Moltrasio C, et al. White matter changes in paediatric bipolar disorder: A systematic review of diffusion magnetic resonance imaging studiesA systematic review of diffusion magnetic resonance imaging studies. Journal of Affective Disorders. 2025;373:67-79. [doi](https://doi.org/10.1016/j.jad.2024.12.042).
+* Valizadeh P, Jannatdoust P, Ghadimi DJ, Tahamtan M, Darmiani K, Shahsavarhaghighi S, et al. The association between C-reactive protein and neuroimaging findings in mood disorders: A review of structural and diffusion MRI studies. Journal of Affective Disorders. 2025. [doi](https://doi.org/10.1016/j.jad.2025.03.175).
+* Cattarinussi G, Grimaldi DA, **Aarabi MH**, Sambataro F. Static and Dynamic Dysconnectivity in Early Psychosis: Relationship With Symptom Dimensions. Schizophrenia Bulletin. 2025. [doi](https://doi.org/10.1093/schbul/sbae142)
+* Parsaei M, Barahman G, Roumiani PH, Ranjbar E, Ansari S, Najafi A, et al. White Matter Correlates of Cognition: A Diffusion Magnetic Resonance Imaging Study. Behavioural Brain Research. 2025:115222. [doi](https://doi.org/10.1016/j.bbr.2024.115222)
 
 
 2024
@@ -13,8 +20,6 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 * Seyedmirzaei H, Soltani Khaboushan A, Abdolalizadeh A, **Aarabi MH**. Microstructural alterations of cerebellar peduncles in multiple sclerosis: a diffusion tensor imaging study. Acta Neurologica Belgica. 2024. [doi](https://doi.org/10.1007/s13760-024-02675-x).
 * Alilou S, Valizadeh P, KamaliZonouzi S, Salabat D, Jannatdoust P, Amanollahi M, et al. The Association Between C-reactive protein and Human Brain Microstructure: A Systematic Review of Diffusion Imaging Studies. Brain Behavior and Immunity Integrative. 2024:100092. [doi](https://doi.org/10.1016/j.bbii.2024.100092)
 * Rashidi F, Parsaei M, Kiani I, Sadri A, **Aarabi MH**, Darijani SR, et al. White matter correlates of impulsive behavior in healthy individuals: A diffusion magnetic resonance imaging study. Psychiatry and Clinical Neurosciences Reports. 2024;3(4):e70018. [doi](https://doi.org/10.1002/pcn5.70018)
-* Cattarinussi G, Grimaldi DA, **Aarabi MH**, Sambataro F. Static and Dynamic Dysconnectivity in Early Psychosis: Relationship With Symptom Dimensions. Schizophrenia Bulletin. 2024. [doi](https://doi.org/10.1093/schbul/sbae142)
-* Parsaei M, Barahman G, Roumiani PH, Ranjbar E, Ansari S, Najafi A, et al. White Matter Correlates of Cognition: A Diffusion Magnetic Resonance Imaging Study. Behavioural Brain Research. 2024:115222. [doi](https://doi.org/10.1016/j.bbr.2024.115222)
 * Fallahi MS, Sahebekhtiari K, Hosseini H, Aliasin MM, Noroozi M, Moghadam Fard A, **Aarabi MH**, Gulisashvili D, Shafie M, Mayeli M (2024) Distinct patterns of hippocampal subfield volumes predict coping strategies, emotion regulation, and impulsivity in healthy adults. Brain Imaging and Behavior. [doi](https://doi.org/10.1007/s11682-024-00904-8)
 * Rezaei, S., Seyedmirzaei, H., Gharepapagh, E., Mohagheghfard, F., Hasankhani, Z., Karbasi, M., Delavari, S., **Aarabi, MH***, Effect of spaceflight experience on human brain structure, microstructure, and function: systematic review of neuroimaging studies. Brain Imaging and Behavior. 2024. [doi](https://doi.org/10.1007/s11682-024-00894-7)
 * Nabizadeh F, Pirahesh K, **Aarabi MH**, Wennberg A, Pini L. Behavioral and dysexecutive variant of Alzheimer’s disease: insights from structural and molecular imaging studies. Heliyon. 2024 Apr;e29420. [doi](https://doi.org/10.1016/j.heliyon.2024.e29420)
