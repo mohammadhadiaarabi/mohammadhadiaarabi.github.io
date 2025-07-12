@@ -12,6 +12,8 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 2025
 ======
 
+* Barzon G, Allegra M, **Aarabi MH**, Pini L, De Domenico M, Corbetta M, et al. Structural Connectome Dimension Shapes Brain Dynamics in Health and Disease. bioRxiv. 2025:2025.06.30.662336.[doi](https://doi.org/10.1101/2025.06.30.662336)
+* Pini L, **Aarabi MH**, Salvalaggio A, Colletta AM, Metcalf NV, Griffis JC, et al. Longitudinal degeneration of microstructural and structural connectivity patterns following stroke. medRxiv. 2025:2025.05.11.25327333.[doi](https://doi.org/10.1101/2025.05.11.25327333) 
 * Kiani I, **Aarabi MH**, Cattarinussi G, Sambataro F, Favalli V, Moltrasio C, et al. White matter changes in paediatric bipolar disorder: A systematic review of diffusion magnetic resonance imaging studiesA systematic review of diffusion magnetic resonance imaging studies. Journal of Affective Disorders. 2025;373:67-79. [doi](https://doi.org/10.1016/j.jad.2024.12.042).
 * Valizadeh P, Jannatdoust P, Ghadimi DJ, Tahamtan M, Darmiani K, Shahsavarhaghighi S, et al. The association between C-reactive protein and neuroimaging findings in mood disorders: A review of structural and diffusion MRI studies. Journal of Affective Disorders. 2025. [doi](https://doi.org/10.1016/j.jad.2025.03.175).
 * Cattarinussi G, Grimaldi DA, **Aarabi MH**, Sambataro F. Static and Dynamic Dysconnectivity in Early Psychosis: Relationship With Symptom Dimensions. Schizophrenia Bulletin. 2025. [doi](https://doi.org/10.1093/schbul/sbae142)
