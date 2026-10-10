@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Interactive HCP-1065 tractography over the Yeo 7-network cortex: data-driven network propagation and tract-to-network mapping (tract2network).">
+<title>tract2network Explorer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500&display=swap">
+<style>
+/* Layout: full-bleed WebGL brain on the left, an instrument-style side panel on the right (bottom sheet on phones). Deliberately dark-only: it is a light-emitting scene. */
+:root {
+  --bg: #05070d;
+  --panel: #0b1019;
+  --line: #1c2533;
+  --fg: #dfe6f1;
+  --muted: #8592a8;
+  --accent: #ffb86b;
+  --font-display: "Newsreader", Georgia, serif;
+  --font-ui: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-ui); font-size: 14px; overflow: hidden; }
+#app { display: grid; grid-template-columns: minmax(0, 1fr) 340px; height: 100%; }
+#stage { position: relative; min-width: 0; }
+#stage canvas { display: block; width: 100%; height: 100%; cursor: grab; }
+#stage canvas:active { cursor: grabbing; }
+#hud { position: absolute; left: 20px; top: 16px; right: 20px; pointer-events: none; display: grid; gap: 4px; }
+#hud h1 { margin: 0; font-family: var(--font-display); font-weight: 500; font-size: 28px; letter-spacing: 0.005em; }
+#hud p { margin: 0; color: var(--muted); max-width: 52ch; line-height: 1.4; }
+#status { position: absolute; left: 20px; bottom: 16px; font-family: var(--font-data); font-size: 12px; color: var(--muted); pointer-events: none; }
+#status b { color: var(--fg); font-weight: 500; }
+#loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-family: var(--font-data); }
+aside { background: var(--panel); border-left: 1px solid var(--line); overflow-y: auto; padding-block: 18px 24px; padding-inline: 18px; display: grid; align-content: start; gap: 22px; }
+section { display: grid; gap: 10px; }
+h2 { margin: 0; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.chips { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.chip { display: flex; align-items: center; gap: 8px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: transparent; color: var(--fg); font: inherit; font-size: 13px; text-align: left; cursor: pointer; min-width: 0; }
+.chip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.chip i { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.chip:hover { border-color: #33415a; }
+.chip[aria-pressed="true"] { border-color: var(--accent); background: #ffb86b14; }
+.chip:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.btn { padding: 8px 14px; border-radius: 6px; border: 1px solid var(--accent); background: var(--accent); color: #1a1006; font: inherit; font-weight: 600; cursor: pointer; }
+.btn.ghost { background: transparent; color: var(--fg); border-color: var(--line); font-weight: 500; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.seg button { background: transparent; border: 0; color: var(--muted); font: inherit; font-size: 13px; padding: 6px 10px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: #1a2333; color: var(--fg); }
+label.ctl { display: grid; grid-template-columns: 90px 1fr; align-items: center; gap: 10px; color: var(--muted); font-size: 13px; }
+input[type=range] { width: 100%; accent-color: var(--accent); }
+ol.arrival { list-style: none; margin: 0; padding: 0; display: grid; gap: 5px; }
+ol.arrival li { display: grid; grid-template-columns: 12px minmax(0, 1fr) 46px; gap: 8px; align-items: center; font-size: 13px; }
+ol.arrival li i { width: 10px; height: 10px; border-radius: 50%; }
+ol.arrival li .bar { height: 3px; background: #1a2333; border-radius: 2px; position: relative; margin-top: 3px; }
+ol.arrival li .bar b { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 2px; }
+ol.arrival li.lit { color: #fff; }
+.num { font-family: var(--font-data); font-size: 12px; font-variant-numeric: tabular-nums; color: var(--muted); text-align: right; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+td { padding: 4px 0; vertical-align: middle; }
+td.n { width: 64px; }
+td.v { width: 92px; }
+.dbar { height: 6px; border-radius: 3px; background: #1a2333; position: relative; }
+.dbar b { position: absolute; inset: 0 auto 0 0; border-radius: 3px; }
+.note { color: var(--muted); font-size: 12px; line-height: 1.45; margin: 0; }
+.note code { font-family: var(--font-data); font-size: 11px; color: var(--fg); }
+.sig { color: var(--accent); font-family: var(--font-data); font-size: 11px; }
+.empty { color: var(--muted); font-size: 13px; }
+@media (max-width: 760px) {
+  #app { grid-template-columns: 1fr; grid-template-rows: minmax(0, 58%) minmax(0, 42%); }
+  aside { border-left: 0; border-top: 1px solid var(--line); }
+  #hud h1 { font-size: 22px; }
+  #hud p { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+<style>*,*::before,*::after{box-sizing:border-box}body{margin:0}</style>
+</head>
+<body>
+
+<div id="app">
+  <div id="stage">
+    <div id="loading">Loading tractogram&hellip;</div>
+    <div id="hud">
+      <h1>tract2network Explorer</h1>
+      <p>HCP-1065 white-matter atlas over the Yeo 7-network cortex. Drag to rotate, scroll to zoom, click the cortex to select a network.</p>
+    </div>
+    <div id="status"></div>
+  </div>
+  <aside>
+    <section aria-labelledby="h-prop">
+      <h2 id="h-prop">Propagation &middot; choose a seed</h2>
+      <div class="chips" id="seedChips"></div>
+      <div class="row">
+        <button class="btn" id="play" type="button">Play propagation</button>
+        <button class="btn ghost" id="stop" type="button">Stop</button>
+      </div>
+      <ol class="arrival" id="arrival"></ol>
+      <p class="note">Arrival = time for each network to reach 50% of steady state under heat diffusion on <code>W = R<sup>T</sup>R</code>, the network coupling carried by the 52 core tracts.</p>
+    </section>
+
+    <section aria-labelledby="h-net">
+      <h2 id="h-net">Network &middot; tracts that serve it</h2>
+      <div class="chips" id="netChips"></div>
+      <div id="netDetail"><p class="empty">Pick a network, or click it on the cortex, to see which tracts reach it and watch its pulses.</p></div>
+    </section>
+
+    <section aria-labelledby="h-disp">
+      <h2 id="h-disp">Display</h2>
+      <div class="row"><span class="note" style="width:90px">Tract colour</span>
+        <div class="seg" role="group" aria-label="Tract colour">
+          <button type="button" id="cTop" aria-pressed="true">Top network</button>
+          <button type="button" id="cDec" aria-pressed="false">Direction</button>
+        </div>
+      </div>
+      <label class="ctl" for="cortexOp">Cortex <input type="range" id="cortexOp" min="0" max="1" step="0.01" value="0.7"></label>
+      <label class="ctl" for="tractOp">Tracts <input type="range" id="tractOp" min="0" max="1" step="0.01" value="0.55"></label>
+      <div class="row"><span class="note" style="width:90px">Rotate</span>
+        <div class="seg" role="group" aria-label="Auto-rotate">
+          <button type="button" id="rotOn" aria-pressed="true">On</button>
+          <button type="button" id="rotOff" aria-pressed="false">Off</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Data</h2>
+      <p class="note">Streamlines: HCP-1065 population tractography atlas (Yeh, 2022), 10k of 29.5k shown. Cortex: MNI152 (FSL FAST). Networks: Yeo et al. (2011), 7-network, FSL MNI152 2 mm. Tract &times; network values: direct-GM relative Dice (TY7) from tract2network; <span class="sig">q</span> marks BH q &lt; 0.05. Streamline ends take the network of the nearest labelled voxel within 6 mm.</p>
+    </section>
+  </aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+(async function () {
+const NETS = [
+  null,
+  { name: "Visual", rgb: [120, 18, 134] },
+  { name: "Somatomotor", rgb: [70, 130, 180] },
+  { name: "Dorsal attention", rgb: [0, 118, 14] },
+  { name: "Salience / ventral attn", rgb: [196, 58, 250] },
+  { name: "Limbic", rgb: [220, 248, 164] },
+  { name: "Frontoparietal control", rgb: [230, 148, 34] },
+  { name: "Default mode", rgb: [205, 62, 78] },
+];
+const css = (k) => `rgb(${NETS[k].rgb.join(",")})`;
+const glow = (k) => { const c = NETS[k].rgb.map(v => v / 255), m = Math.max(...c); return c.map(v => 0.45 + 0.55 * v / m); };
+
+let D;
+try { D = await (await fetch("viewer_data.json")).json(); }
+catch (e) { document.getElementById("loading").textContent = "Could not load the tractogram data."; return; }
+const b64 = (s, T) => { const bin = atob(s), u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return new T(u.buffer); };
+const MV = b64(D.mv, Int16Array), MF = b64(D.mf, Uint32Array), ML = b64(D.ml, Uint8Array);
+const SP = b64(D.sp, Int16Array), SB = b64(D.sb, Uint8Array), SA = b64(D.sa, Uint8Array), SL = b64(D.sl, Uint8Array);
+const NP = D.np, NS = SB.length, BUN = D.bundles, NB = BUN.length;
+
+// ---- tract x network matrix (core tracts) and diffusion model
+const core = BUN.map((b, i) => b.r ? i : -1).filter(i => i >= 0);
+const W = Array.from({ length: 7 }, () => new Float64Array(7));
+for (const i of core) { const r = BUN[i].r; for (let a = 0; a < 7; a++) for (let b = 0; b < 7; b++) if (a !== b) W[a][b] += r[a] * r[b]; }
+const deg = W.map(r => r.reduce((s, v) => s + v, 0));
+function arrivals(seed) {               // seed: 1..7
+  let x = new Float64Array(7); x[seed - 1] = 1;
+  const dt = 0.002, steps = 3000, hist = [];
+  for (let s = 0; s <= steps; s++) {
+    hist.push(x);
+    const nx = new Float64Array(7);
+    for (let a = 0; a < 7; a++) { let lx = x[a]; for (let b = 0; b < 7; b++) lx -= W[a][b] / Math.sqrt(deg[a] * deg[b]) * x[b]; nx[a] = x[a] - dt * lx; }
+    x = nx;
+  }
+  const st = hist[hist.length - 1], out = {};
+  for (let k = 1; k <= 7; k++) {
+    if (k === seed) { out[k] = 0; continue; }
+    let t = steps * dt; for (let s = 0; s < hist.length; s++) if (hist[s][k - 1] >= 0.5 * st[k - 1]) { t = s * dt; break; }
+    out[k] = t;
+  }
+  return out;
+}
+
+// ---- three.js scene
+const stage = document.getElementById("stage");
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
+renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1));
+renderer.setClearColor(0x05070d, 1);
+stage.prepend(renderer.domElement);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(36, 1, 0.05, 50);
+camera.position.set(-3.6, 0.9, -1.0);
+const controls = new THREE.OrbitControls(camera, renderer.domElement);
+controls.target.set(0, 0.06, 0.15); controls.enableDamping = true; controls.minDistance = 1.4; controls.maxDistance = 7;
+controls.autoRotate = true; controls.autoRotateSpeed = 0.6;
+const toV = (x, y, z) => [x / 1000, z / 1000, -y / 1000];   // MNI mm*10 -> three units (RAS -> Y-up)
+
+const NET_COLS = [new THREE.Vector3(0.6, 0.65, 0.8)].concat([1, 2, 3, 4, 5, 6, 7].map(k => new THREE.Vector3(...glow(k))));
+const U = { uAct: { value: new Array(8).fill(0) }, uCol: { value: NET_COLS }, uOp: { value: 0.7 }, uFocus: { value: 0 } };
+
+// cortex
+const cg = new THREE.BufferGeometry();
+const cpos = new Float32Array(MV.length);
+for (let i = 0; i < MV.length; i += 3) { const v = toV(MV[i], MV[i + 1], MV[i + 2]); cpos[i] = v[0]; cpos[i + 1] = v[1]; cpos[i + 2] = v[2]; }
+cg.setAttribute("position", new THREE.BufferAttribute(cpos, 3));
+cg.setAttribute("aNet", new THREE.BufferAttribute(new Float32Array(ML), 1));
+cg.setIndex(new THREE.BufferAttribute(MF, 1));
+cg.computeVertexNormals();
+const cortexMat = new THREE.ShaderMaterial({
+  uniforms: U, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending, side: THREE.DoubleSide,
+  vertexShader: `
+    attribute float aNet; varying float vNet; varying vec3 vN; varying vec3 vV;
+    void main(){ vNet=aNet; vec4 mv=modelViewMatrix*vec4(position,1.0); vN=normalize(normalMatrix*normal); vV=normalize(-mv.xyz); gl_Position=projectionMatrix*mv; }`,
+  fragmentShader: `
+    uniform float uAct[8]; uniform vec3 uCol[8]; uniform float uOp; uniform float uFocus; varying float vNet; varying vec3 vN; varying vec3 vV;
+    void main(){
+      int k=int(vNet+0.5); float fres=pow(1.0-abs(dot(normalize(vN),normalize(vV))),1.8);
+      vec3 nc=vec3(0.18,0.22,0.32); float act=0.0;
+      for(int i=0;i<8;i++){ if(i==k){ nc=uCol[i]; act=uAct[i]; } }
+      float dim = (uFocus>0.5 && abs(float(k)-uFocus)>0.5) ? 0.35 : 1.0;
+      vec3 rim=mix(vec3(0.2,0.42,1.0), nc, 0.75);
+      vec3 c = (rim*(0.015+0.42*fres) + nc*0.035)*uOp*dim + nc*act*(0.12+0.4*fres);
+      gl_FragColor=vec4(c,1.0);
+    }`
+});
+const cortex = new THREE.Mesh(cg, cortexMat); scene.add(cortex);
+
+// streamlines
+const nv = NS * NP;
+const pos = new Float32Array(nv * 3), aU = new Float32Array(nv), aB = new Float32Array(nv), aLA = new Float32Array(nv), aLB = new Float32Array(nv), aSeed = new Float32Array(nv);
+const aDec = new Float32Array(nv * 3), aTop = new Float32Array(nv * 3);
+const idx = new Uint32Array(NS * (NP - 1) * 2);
+let q = 0;
+for (let s = 0; s < NS; s++) {
+  const b = SB[s], top = BUN[b].r ? 1 + BUN[b].r.indexOf(Math.max(...BUN[b].r)) : 0;
+  const tc = top ? glow(top).map(v => 0.15 + 0.85 * v) : [0.25, 0.32, 0.55];
+  const seed = Math.random();
+  for (let p = 0; p < NP; p++) {
+    const i = s * NP + p, j = i * 3, v = toV(SP[j], SP[j + 1], SP[j + 2]);
+    pos[j] = v[0]; pos[j + 1] = v[1]; pos[j + 2] = v[2];
+    aU[i] = p / (NP - 1); aB[i] = b; aLA[i] = SA[s]; aLB[i] = SL[s]; aSeed[i] = seed;
+    const p0 = Math.max(0, p - 1), p1 = Math.min(NP - 1, p + 1), a = (s * NP + p0) * 3, c = (s * NP + p1) * 3;
+    let dx = SP[c] - SP[a], dy = SP[c + 1] - SP[a + 1], dz = SP[c + 2] - SP[a + 2];
+    const n = Math.hypot(dx, dy, dz) || 1; dx = Math.abs(dx / n); dy = Math.abs(dy / n); dz = Math.abs(dz / n);
+    const m = Math.max(dx, dy, dz); aDec[j] = 0.06 + 0.94 * dx / m; aDec[j + 1] = 0.06 + 0.94 * dy / m; aDec[j + 2] = 0.06 + 0.94 * dz / m;
+    aTop[j] = tc[0]; aTop[j + 1] = tc[1]; aTop[j + 2] = tc[2];
+    if (p < NP - 1) { idx[q++] = i; idx[q++] = i + 1; }
+  }
+}
+const lg = new THREE.BufferGeometry();
+lg.setAttribute("position", new THREE.BufferAttribute(pos, 3));
+for (const [n, a, d] of [["aU", aU, 1], ["aB", aB, 1], ["aLA", aLA, 1], ["aLB", aLB, 1], ["aSeed", aSeed, 1], ["aDec", aDec, 3], ["aTop", aTop, 3]]) lg.setAttribute(n, new THREE.BufferAttribute(a, d));
+lg.setIndex(new THREE.BufferAttribute(idx, 1));
+
+// amplitude texture: bundle x [input, net1..7]
+const ampData = new Uint8Array(NB * 8 * 4);
+const AMP = BUN.map(b => { const row = new Array(8).fill(0); if (b.r) for (let k = 1; k <= 7; k++) { const r = b.r[k - 1]; row[k] = r < 0.08 ? 0 : Math.min(1, Math.pow(r / 0.35, 0.8)); } if (/^(OR|TR_P)_/.test(b.n)) row[0] = 1; return row; });
+AMP.forEach((row, b) => row.forEach((v, k) => { const o = (b * 8 + k) * 4; ampData[o] = ampData[o + 1] = ampData[o + 2] = Math.round(v * 255); ampData[o + 3] = 255; }));
+const ampTex = new THREE.DataTexture(ampData, 8, NB, THREE.RGBAFormat); ampTex.needsUpdate = true;
+ampTex.magFilter = ampTex.minFilter = THREE.NearestFilter;
+
+const LU = { uAmp: { value: ampTex }, uNB: { value: NB }, uT: { value: new Array(8).fill(-9) }, uCol: { value: NET_COLS },
+  uMode: { value: 1 }, uBase: { value: 0.55 }, uFocus: { value: 0 }, uTravel: { value: 1.1 } };
+const lineMat = new THREE.ShaderMaterial({
+  uniforms: LU, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending,
+  vertexShader: `
+    attribute float aU, aB, aLA, aLB, aSeed; attribute vec3 aDec, aTop;
+    uniform sampler2D uAmp; uniform float uNB, uT[8], uMode, uBase, uFocus, uTravel; uniform vec3 uCol[8];
+    varying vec3 vC;
+    float amp(float k){ return texture2D(uAmp, vec2((k+0.5)/8.0, (aB+0.5)/uNB)).r; }
+    void main(){
+      vec3 body = mix(aDec, aTop, uMode);
+      float w = uBase*0.06;
+      if(uFocus>0.5){ float a=amp(uFocus); w = uBase*(0.004+0.30*a); }
+      vec3 c = body*w;
+      for(int i=0;i<8;i++){
+        float t=uT[i]; if(t<0.0 || t>uTravel*1.6) continue;
+        float k=float(i); float a=amp(k); if(a<0.01) continue;
+        float u=aU; bool ea=abs(aLA-k)<0.5; bool eb=abs(aLB-k)<0.5;
+        if(eb && !ea) u=1.0-u;
+        float d=t/uTravel - aSeed*0.15 - u;
+        float p=exp(-d*d*196.0) + (d>0.0 ? 0.3*exp(-d*8.0) : 0.0);
+        c += uCol[i]*p*a*0.38;
+      }
+      vC=c; gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0);
+    }`,
+  fragmentShader: `varying vec3 vC; void main(){ gl_FragColor=vec4(vC,1.0); }`
+});
+const lines = new THREE.LineSegments(lg, lineMat); scene.add(lines);
+document.getElementById("loading").remove();
+
+function resize() { const r = stage.getBoundingClientRect(); renderer.setSize(r.width, r.height, false); camera.aspect = r.width / Math.max(1, r.height); camera.updateProjectionMatrix(); }
+new ResizeObserver(resize).observe(stage); resize();
+
+// ---- UI
+const $ = (id) => document.getElementById(id);
+function chips(el, onPick) {
+  for (let k = 1; k <= 7; k++) {
+    const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.dataset.k = k; b.setAttribute("aria-pressed", "false");
+    b.innerHTML = `<i style="background:${css(k)}"></i><span>${NETS[k].name}</span>`;
+    b.addEventListener("click", () => onPick(k)); el.appendChild(b);
+  }
+}
+const press = (el, k) => el.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", String(+c.dataset.k === k)));
+let seed = 1, mode = "idle", t0 = 0, fire = {}, focus = 0, focusT0 = 0;
+const SCALE = 2.4, GAP = 0.55;
+function schedule(s) {
+  const arr = arrivals(s), order = [1, 2, 3, 4, 5, 6, 7].sort((a, b) => arr[a] - arr[b]);
+  const f = {}; let last = null; const lead = s === 1 ? 1.2 : 0.3;
+  for (const k of order) { let t = lead + SCALE * arr[k]; if (last !== null) t = Math.max(t, last + GAP); f[k] = last = t; }
+  return { arr, order, f };
+}
+function renderArrival(sch) {
+  const max = Math.max(...Object.values(sch.arr)) || 1;
+  $("arrival").innerHTML = sch.order.map(k => `<li data-k="${k}"><i style="background:${css(k)}"></i><div><div>${NETS[k].name}</div><div class="bar"><b style="width:${(100 * sch.arr[k] / max).toFixed(1)}%;background:${css(k)}"></b></div></div><span class="num">${sch.arr[k].toFixed(2)}</span></li>`).join("");
+}
+let SCH = schedule(1);
+chips($("seedChips"), k => { seed = k; press($("seedChips"), k); SCH = schedule(k); renderArrival(SCH); startProp(); });
+press($("seedChips"), 1); renderArrival(SCH);
+function startProp() { setFocus(0); mode = "prop"; t0 = performance.now() / 1000; }
+$("play").addEventListener("click", startProp);
+$("stop").addEventListener("click", () => { mode = "idle"; setFocus(0); });
+
+chips($("netChips"), k => setFocus(focus === k ? 0 : k));
+function setFocus(k) {
+  focus = k; press($("netChips"), k); LU.uFocus.value = k; U.uFocus.value = k;
+  if (k) { mode = "focus"; focusT0 = performance.now() / 1000; }
+  else if (mode === "focus") mode = "idle";
+  const el = $("netDetail");
+  if (!k) { el.innerHTML = `<p class="empty">Pick a network, or click it on the cortex, to see which tracts reach it and watch its pulses.</p>`; return; }
+  const rows = BUN.filter(b => b.r).map(b => ({ n: b.core, r: b.r[k - 1], q: b.q[k - 1] })).sort((a, b) => b.r - a.r).slice(0, 10);
+  const mx = rows[0].r || 1;
+  el.innerHTML = `<table><tbody>${rows.map(r => `<tr><td class="n">${r.n}</td><td><div class="dbar"><b style="width:${(100 * r.r / mx).toFixed(1)}%;background:${css(k)}"></b></div></td><td class="v num">${r.r.toFixed(3)} ${r.q < 0.05 ? '<span class="sig">q</span>' : ''}</td></tr>`).join("")}</tbody></table><p class="note">Top 10 core tracts by relative Dice with ${NETS[k].name}. Pulses leave from the streamline end that lies in this network.</p>`;
+}
+const seg = (on, off, fn) => { $(on).addEventListener("click", () => { $(on).setAttribute("aria-pressed", "true"); $(off).setAttribute("aria-pressed", "false"); fn(true); }); $(off).addEventListener("click", () => { $(off).setAttribute("aria-pressed", "true"); $(on).setAttribute("aria-pressed", "false"); fn(false); }); };
+seg("cTop", "cDec", v => LU.uMode.value = v ? 1 : 0);
+seg("rotOn", "rotOff", v => controls.autoRotate = v);
+$("cortexOp").addEventListener("input", e => U.uOp.value = +e.target.value);
+$("tractOp").addEventListener("input", e => LU.uBase.value = +e.target.value);
+
+// click cortex -> network
+const ray = new THREE.Raycaster(), ndc = new THREE.Vector2(); let down = null;
+renderer.domElement.addEventListener("pointerdown", e => down = [e.clientX, e.clientY]);
+renderer.domElement.addEventListener("pointerup", e => {
+  if (!down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 5) return;
+  const r = renderer.domElement.getBoundingClientRect();
+  ndc.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+  ray.setFromCamera(ndc, camera);
+  const hit = ray.intersectObject(cortex, false)[0];
+  if (!hit) return;
+  const f = hit.face, labs = [ML[f.a], ML[f.b], ML[f.c]].filter(v => v > 0);
+  if (labs.length) setFocus(labs.sort((a, b) => labs.filter(v => v === b).length - labs.filter(v => v === a).length)[0]);
+});
+
+// ---- animation loop
+const env = (dt) => dt < 0 ? 0 : dt < 0.18 ? dt / 0.18 * 0.9 : 0.12 + 0.78 * Math.exp(-(dt - 0.18) / 0.9);
+const status = $("status");
+function tick() {
+  const now = performance.now() / 1000;
+  const T = LU.uT.value, A = U.uAct.value;
+  T.fill(-9); A.fill(0);
+  if (mode === "prop") {
+    const t = now - t0;
+    if (seed === 1) T[0] = t - (SCH.f[1] - 1.05);
+    let lit = [];
+    for (let k = 1; k <= 7; k++) { T[k] = t - SCH.f[k]; A[k] = env(t - SCH.f[k]); if (t >= SCH.f[k]) lit.push(k); }
+    $("arrival").querySelectorAll("li").forEach(li => li.classList.toggle("lit", t >= SCH.f[+li.dataset.k]));
+    const last = Math.max(...Object.values(SCH.f));
+    status.innerHTML = `Seed <b>${NETS[seed].name}</b> &middot; t = ${t.toFixed(1)} s &middot; ${lit.length}/7 networks reached`;
+    if (t > last + 4) { mode = "idle"; }
+  } else if (mode === "focus") {
+    const t = (now - focusT0) % 2.4;
+    T[focus] = t; A[focus] = 0.35 + 0.45 * Math.exp(-t / 0.6);
+    status.innerHTML = `Network <b>${NETS[focus].name}</b> &middot; pulses leave along the tracts that reach it`;
+  } else {
+    for (let k = 1; k <= 7; k++) A[k] = 0.06;
+    status.innerHTML = `${NS.toLocaleString()} streamlines &middot; ${core.length} core tracts &middot; 7 networks`;
+  }
+  controls.update(); renderer.render(scene, camera);
+  requestAnimationFrame(tick);
+}
+startProp();
+tick();
+})();
+</script>
+
+</body>
+</html>
