@@ -24,7 +24,7 @@
     <nav aria-label="Main">
       <a href="#research">Research</a>
       <a href="#recent">Recent</a>
-      {% for link in site.data.navigation.main %}<a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a>{% endfor %}
+      {% for link in site.data.navigation.main %}{% if link.url contains 'http' %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }} <span aria-hidden="true">↗</span></a>{% else %}<a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a>{% endif %}{% endfor %}
     </nav>
   </header>
 
@@ -64,6 +64,7 @@
           {% if author.github %}<li><a href="https://github.com/{{ author.github }}" aria-label="GitHub"><i class="fab fa-github"></i></a></li>{% endif %}
           {% if author.twitter %}<li><a href="https://twitter.com/{{ author.twitter }}" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>{% endif %}
           {% if author.instagram %}<li><a href="https://instagram.com/{{ author.instagram }}" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>{% endif %}
+          {% if author.linkedin %}<li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>{% endif %}
         </ul>
       </div>
       <div class="nh-about-text">
