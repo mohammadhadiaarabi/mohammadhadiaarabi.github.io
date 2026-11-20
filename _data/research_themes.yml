@@ -1,0 +1,32 @@
+# Research themes shown on the home page.
+# `video` (optional): path to a short muted loop rendered with the Blender clip pipeline,
+#   e.g. /assets/neuro/video/microstructure.mp4 (H.264, ~6-10 s, 1280x720, < 3 MB).
+#   Without it the card shows its animated gradient instead.
+- id: microstructure
+  index: "01"
+  title: "Tissue microstructure"
+  text: "Diffusion models from DTI to NODDI and multi-shell approaches, used to measure how white- and grey-matter tissue is organised and how it changes with age and disease."
+  tags: [DTI, NODDI, multi-shell]
+  hue: "#7aa2ff"
+  video:
+- id: tractography
+  index: "02"
+  title: "Tractography & along-tract analysis"
+  text: "Reconstructing white-matter pathways and profiling them bundle by bundle, and along each bundle, to find where along a tract the changes concentrate."
+  tags: [tractography, tractometry, atlases]
+  hue: "#5fe0a8"
+  video:
+- id: connectome
+  index: "03"
+  title: "Connectomes & brain dynamics"
+  text: "Structural connectomes and network models: how the brain's wiring constrains the dynamics of large-scale functional networks."
+  tags: [connectomics, networks, dynamics]
+  hue: "#f2a65a"
+  video:
+- id: clinical
+  index: "04"
+  title: "Clinical neuroimaging"
+  text: "White-matter signatures of psychosis, mood disorders, stroke, multiple sclerosis and neurodegeneration, from single studies to systematic reviews."
+  tags: [psychiatry, neurology, reviews]
+  hue: "#e86a8a"
+  video:

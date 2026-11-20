@@ -1,0 +1,143 @@
+{% include base_path %}{% assign author = site.author %}<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" data-fibres="{{ base_path }}/assets/neuro/fibres2d.bin">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }} · {{ page.tagline }}</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | escape }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ page.excerpt | strip_html | escape }}">
+  <meta name="theme-color" content="#05070d">
+  <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="{{ base_path }}/assets/neuro/neuro-home.css">
+  <link rel="preload" href="{{ base_path }}/assets/neuro/hero.bin" as="fetch" crossorigin>
+</head>
+<body class="nh">
+  <a class="nh-skip" href="#about">Skip to content</a>
+
+  <header class="nh-nav" id="top">
+    <a class="nh-brand" href="{{ base_path }}/"><span class="nh-brand-mark" aria-hidden="true"></span>{{ site.title }}</a>
+    <nav aria-label="Main">
+      <a href="#research">Research</a>
+      <a href="#connectome">Connectome</a>
+      {% for link in site.data.navigation.main %}<a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a>{% endfor %}
+    </nav>
+  </header>
+
+  <section class="nh-hero">
+    <div id="hero-stage" class="nh-stage" data-src="{{ base_path }}/assets/neuro/hero.bin" aria-label="Animated 3D tractography of the human brain" role="img"></div>
+    <div class="nh-hero-copy">
+      <p class="nh-kicker"><span class="nh-pulse" aria-hidden="true"></span>{{ page.role }} · {{ page.affiliation }}</p>
+      <h1>{{ site.title }}</h1>
+      <p class="nh-tagline">{{ page.tagline }}<span>diffusion MRI · tractography · connectomics</span></p>
+      <div class="nh-cta">
+        <a class="nh-btn nh-btn-solid" href="{{ base_path }}/publications/">Publications</a>
+        <a class="nh-btn" href="{{ base_path }}/tract2network-explorer/">tract2network Explorer <span aria-hidden="true">→</span></a>
+        <a class="nh-btn nh-btn-ghost" href="{{ base_path }}/cv/">CV</a>
+      </div>
+    </div>
+    <div class="nh-hero-foot">
+      <div class="nh-mode" role="group" aria-label="Fibre colouring">
+        <span>Colour fibres by</span>
+        <button type="button" data-fibre-mode="dec" aria-pressed="true"><i class="nh-sw nh-sw-dec"></i>direction</button>
+        <button type="button" data-fibre-mode="net" aria-pressed="false"><i class="nh-sw nh-sw-net"></i>network</button>
+      </div>
+      <a class="nh-scroll" href="#about" aria-label="Scroll to about"><span></span></a>
+    </div>
+  </section>
+
+  <main>
+    <section class="nh-section nh-about" id="about">
+      <div class="nh-about-id">
+        {% if author.avatar %}<img class="nh-avatar" src="{% if author.avatar contains '://' %}{{ author.avatar }}{% else %}{{ base_path }}/images/{{ author.avatar }}{% endif %}" alt="{{ author.name }}" loading="lazy">{% endif %}
+        <ul class="nh-social">
+          {% if author.email %}<li><a href="mailto:{{ author.email }}" aria-label="Email"><i class="fas fa-envelope"></i></a></li>{% endif %}
+          {% if author.googlescholar %}<li><a href="{{ author.googlescholar }}" aria-label="Google Scholar"><i class="ai ai-google-scholar-square"></i></a></li>{% endif %}
+          {% if author.researchgate %}<li><a href="{{ author.researchgate }}" aria-label="ResearchGate"><i class="ai ai-researchgate-square"></i></a></li>{% endif %}
+          {% if author.github %}<li><a href="https://github.com/{{ author.github }}" aria-label="GitHub"><i class="fab fa-github"></i></a></li>{% endif %}
+          {% if author.twitter %}<li><a href="https://twitter.com/{{ author.twitter }}" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>{% endif %}
+          {% if author.instagram %}<li><a href="https://instagram.com/{{ author.instagram }}" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>{% endif %}
+        </ul>
+      </div>
+      <div class="nh-about-text">
+        <p class="nh-label">About</p>
+        <div class="nh-prose">{{ content }}</div>
+        {% if page.stats %}<dl class="nh-stats">{% for s in page.stats %}<div><dt>{{ s.value }}</dt><dd>{{ s.label }}</dd></div>{% endfor %}</dl>{% endif %}
+      </div>
+    </section>
+
+    <section class="nh-section" id="research">
+      <p class="nh-label">Research</p>
+      <h2 class="nh-h2">Four threads, one question: <em>how does the brain's wiring shape what it does?</em></h2>
+      <div class="nh-themes">
+        {% for t in site.data.research_themes %}
+        <article class="nh-theme" style="--hue: {{ t.hue }}">
+          {% if t.video %}<video class="nh-theme-video" src="{{ base_path }}{{ t.video }}" muted loop playsinline preload="none" aria-hidden="true"></video>{% else %}<div class="nh-theme-flow" aria-hidden="true"></div>{% endif %}
+          <span class="nh-theme-idx">{{ t.index }}</span>
+          <h3>{{ t.title }}</h3>
+          <p>{{ t.text }}</p>
+          <ul class="nh-tags">{% for tag in t.tags %}<li>{{ tag }}</li>{% endfor %}</ul>
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    {% if page.loop_video %}
+    <section class="nh-loop" aria-label="Cinematic tractography loop">
+      <video src="{{ base_path }}{{ page.loop_video }}" {% if page.loop_poster %}poster="{{ base_path }}{{ page.loop_poster }}"{% endif %} muted loop playsinline autoplay preload="metadata"></video>
+      {% if page.loop_caption %}<p>{{ page.loop_caption }}</p>{% endif %}
+    </section>
+    {% endif %}
+
+    <section class="nh-section nh-cx" id="connectome" data-base="{{ base_path }}">
+      <div class="nh-cx-head">
+        <p class="nh-label">Interactive · structural connectome</p>
+        <h2 class="nh-h2">Seven networks, wired by <em>77 white-matter bundles</em></h2>
+      </div>
+      <div class="nh-cx-body">
+        <div class="nh-cx-canvas"><canvas aria-label="Network graph of the seven Yeo functional networks connected by white-matter bundles"></canvas></div>
+        <aside class="cx-panel" aria-live="polite">
+          <p class="cx-kicker">How to read it</p>
+          <h3>Hover or tap a network</h3>
+          <p class="cx-note">Each node is a functional network at its position on the cortex. Line thickness shows how strongly atlas tracts link two networks; the moving lights trace those links. Select a node to see which bundles carry its strongest connections.</p>
+          <a class="nh-btn" href="{{ base_path }}/tract2network-explorer/">Open the full 3D explorer <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="nh-section" id="recent">
+      <p class="nh-label">Recent work</p>
+      <h2 class="nh-h2">Selected publications</h2>
+      <ol class="nh-pubs">
+        {% for p in site.data.featured_publications %}
+        <li><a href="{{ p.url }}" target="_blank" rel="noopener">
+          <span class="nh-pub-meta">{{ p.year }} · {{ p.venue }}</span>
+          <span class="nh-pub-title">{{ p.title }}</span>
+          <span class="nh-pub-auth">{{ p.authors | replace: 'Aarabi MH', '<b>Aarabi MH</b>' }}</span>
+        </a></li>
+        {% endfor %}
+      </ol>
+      <a class="nh-btn" href="{{ base_path }}/publications/">All publications <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+
+  <footer class="nh-foot">
+    <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    <p class="nh-foot-note">Streamlines: atlas tractogram from the tract2network project, rendered live with three.js.</p>
+  </footer>
+
+  <script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
+  <script src="{{ base_path }}/assets/neuro/hero.js" defer></script>
+  <script src="{{ base_path }}/assets/neuro/connectome.js" defer></script>
+  <script src="{{ base_path }}/assets/neuro/fibres-bg.js" defer></script>
+  <script>
+    (function(){var v=document.querySelectorAll('.nh-theme-video');if(!('IntersectionObserver' in window))return;
+      var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.play().catch(function(){});}else{e.target.pause();}});},{threshold:.25});
+      v.forEach(function(x){io.observe(x);});})();
+  </script>
+</body>
+</html>
