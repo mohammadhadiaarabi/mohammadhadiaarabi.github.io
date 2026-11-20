@@ -23,7 +23,7 @@
     <a class="nh-brand" href="{{ base_path }}/"><span class="nh-brand-mark" aria-hidden="true"></span>{{ site.title }}</a>
     <nav aria-label="Main">
       <a href="#research">Research</a>
-      <a href="#connectome">Connectome</a>
+      <a href="#recent">Recent</a>
       {% for link in site.data.navigation.main %}<a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a>{% endfor %}
     </nav>
   </header>
@@ -36,7 +36,7 @@
       <p class="nh-tagline">{{ page.tagline }}<span>diffusion MRI · tractography · connectomics</span></p>
       <div class="nh-cta">
         <a class="nh-btn nh-btn-solid" href="{{ base_path }}/publications/">Publications</a>
-        <a class="nh-btn" href="{{ base_path }}/tract2network-explorer/">tract2network Explorer <span aria-hidden="true">→</span></a>
+        <a class="nh-btn" href="#research">Research <span aria-hidden="true">→</span></a>
         <a class="nh-btn nh-btn-ghost" href="{{ base_path }}/cv/">CV</a>
       </div>
     </div>
@@ -44,7 +44,10 @@
       <div class="nh-mode" role="group" aria-label="Fibre colouring">
         <span>Colour fibres by</span>
         <button type="button" data-fibre-mode="dec" aria-pressed="true"><i class="nh-sw nh-sw-dec"></i>direction</button>
-        <button type="button" data-fibre-mode="net" aria-pressed="false"><i class="nh-sw nh-sw-net"></i>network</button>
+        <button type="button" data-fibre-mode="family" aria-pressed="false"><i class="nh-sw nh-sw-net"></i>tract family</button>
+        <ul class="nh-legend" aria-label="Tract families">
+          <li style="--c:#5fe0a8">association</li><li style="--c:#f2a65a">limbic</li><li style="--c:#7aa2ff">projection</li><li style="--c:#e86a8a">commissural</li><li style="--c:#c49bff">cerebellar</li>
+        </ul>
       </div>
       <a class="nh-scroll" href="#about" aria-label="Scroll to about"><span></span></a>
     </div>
@@ -93,22 +96,6 @@
     </section>
     {% endif %}
 
-    <section class="nh-section nh-cx" id="connectome" data-base="{{ base_path }}">
-      <div class="nh-cx-head">
-        <p class="nh-label">Interactive · structural connectome</p>
-        <h2 class="nh-h2">Seven networks, wired by <em>77 white-matter bundles</em></h2>
-      </div>
-      <div class="nh-cx-body">
-        <div class="nh-cx-canvas"><canvas aria-label="Network graph of the seven Yeo functional networks connected by white-matter bundles"></canvas></div>
-        <aside class="cx-panel" aria-live="polite">
-          <p class="cx-kicker">How to read it</p>
-          <h3>Hover or tap a network</h3>
-          <p class="cx-note">Each node is a functional network at its position on the cortex. Line thickness shows how strongly atlas tracts link two networks; the moving lights trace those links. Select a node to see which bundles carry its strongest connections.</p>
-          <a class="nh-btn" href="{{ base_path }}/tract2network-explorer/">Open the full 3D explorer <span aria-hidden="true">→</span></a>
-        </aside>
-      </div>
-    </section>
-
     <section class="nh-section" id="recent">
       <p class="nh-label">Recent work</p>
       <h2 class="nh-h2">Selected publications</h2>
@@ -127,12 +114,11 @@
 
   <footer class="nh-foot">
     <p>© {{ site.time | date: '%Y' }} {{ site.title }}</p>
-    <p class="nh-foot-note">Streamlines: atlas tractogram from the tract2network project, rendered live with three.js.</p>
+    <p class="nh-foot-note">Streamlines: HCP-1065 population tractography atlas (Yeh, 2022), rendered live with three.js.</p>
   </footer>
 
   <script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
   <script src="{{ base_path }}/assets/neuro/hero.js" defer></script>
-  <script src="{{ base_path }}/assets/neuro/connectome.js" defer></script>
   <script src="{{ base_path }}/assets/neuro/fibres-bg.js" defer></script>
   <script>
     (function(){var v=document.querySelectorAll('.nh-theme-video');if(!('IntersectionObserver' in window))return;

@@ -8,17 +8,17 @@ role: "Postdoctoral researcher"
 affiliation: "Institut des Maladies Neurodégénératives (IMN), Bordeaux"
 tagline: "Mapping the brain's wiring with diffusion MRI"
 stats:
-  - value: "45+"
+  - value: "80+"
     label: "publications"
-  - value: "13,300"
-    label: "streamlines in the hero"
-  - value: "77"
-    label: "atlas bundles"
+  - value: "since 2017"
+    label: "in diffusion MRI"
+  - value: "4,180"
+    label: "atlas streamlines above"
 # Optional cinematic loop (Blender pipeline) shown as a full-width band; leave empty to hide.
 # Example: /assets/neuro/video/tractography-loop.mp4 with a poster /assets/neuro/video/tractography-loop.jpg
 loop_video:
 loop_poster:
-loop_caption: "Rendered from the same tractogram that drives this page."
+loop_caption: "Rendered from the HCP-1065 tractography atlas."
 redirect_from:
   - /about/
   - /about.html
@@ -28,4 +28,4 @@ I am a postdoctoral researcher at the Institut des Maladies Neurodégénérative
 
 My research uses diffusion MRI to study the microstructural organisation of the human brain, and tractography and connectome analysis to understand how its wiring supports brain function, in health and in disease.
 
-The streamlines moving behind this page are real data: an atlas tractogram of 77 white-matter bundles, coloured by fibre direction or by the functional network each bundle serves.
+The streamlines moving behind this page are real data from the HCP-1065 population tractography atlas, coloured by fibre direction or by tract family.

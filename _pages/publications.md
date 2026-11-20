@@ -9,14 +9,27 @@ You can find all my papers on my [Google Scholar profile](https://scholar.google
 
 
 
+2026
+======
+
+* Naghipoor-Alamdari M, Farshbafnadi M, **Aarabi MH**. Interhemispheric structural connectivity alterations and hierarchical connectome gradient reorganization following SARS-CoV-2 infection. Neuroscience. 2026;620:108-17. [doi](https://doi.org/10.1016/j.neuroscience.2026.11.007)
+* **Aarabi MH**. Neuroimaging runs on helium, helium runs through Hormuz. Nature Neuroscience. 2026;29(8):1777-8. [doi](https://doi.org/10.1038/s41593-026-02355-4)
+* Zafari R, Kamroo A, Taherkhani T, Nabizadeh F, **Aarabi MH**. DTI-ALPS index and its association with neuroinflammatory and neurodegenerative biomarkers and tau-PET in Alzheimer's continuum. Neuroscience. 2026;609:101-15. [doi](https://doi.org/10.1016/j.neuroscience.2026.05.010)
+* Zafari R, Taherkhani T, **Aarabi MH**. Cerebellar tracts microstructural characteristics and severity of language impairment in post-stroke patients with aphasia: a DTI study. Cerebellum. 2026;25(4):109. [doi](https://doi.org/10.1007/s12311-026-02052-9)
+* Pini L, **Aarabi MH**, Salvalaggio A, Colletta AM, Metcalf NV, Griffis JC, et al. Longitudinal degeneration of microstructural and structural connectivity patterns following stroke. Stroke. 2026;57(7):2013-30. [doi](https://doi.org/10.1161/STROKEAHA.125.054736)
+* Zafari R, Kamroo A, Taherkhani T, Heidari-Foroozan M, Nabizadeh F, **Aarabi MH**. DTI-ALPS is associated with temporolimbic amyloid but not plasma p-tau181 across the Alzheimer's disease continuum. Research Square [Preprint]. 2026. [doi](https://doi.org/10.21203/rs.3.rs-9382890/v1)
+* Salabat D, KamaliZonouzi S, Kiani I, Seyedmirzaei H, Rezaei S, **Aarabi MH**. White matter microstructural alterations in Huntington's disease: a systematic review of diffusion imaging findings. Brain Imaging and Behavior. 2026;20(2):73. [doi](https://doi.org/10.1007/s11682-026-01141-x)
+* Falahati M, Orangi K, Shaabanpoor Haghighi A, Pouroushaninia N, Niknam N, Soltani S, et al., **Aarabi MH**. Microstructural alterations of the amygdala in neurodegenerative and neuroinflammatory disorders: insights from diffusion tensor imaging. Reviews in the Neurosciences. 2026;37(3):289-304. [doi](https://doi.org/10.1515/revneuro-2025-0083)
+
+
 2025
 ======
 
+* **Aarabi MH**. Network-specific corpus callosum aging and age-moderated cognitive associations using tract-to-region analysis. Communications Biology. 2025;8(1):1823. [doi](https://doi.org/10.1038/s42003-025-09219-w)
 * Sanjari Moghaddam H, **Aarabi MH**, Kiani I, Cattarinussi G, Khodadadi S, Delavari S, et al. Microstructural alterations of the corpus callosum in affective and non-affective early psychosis: A diffusion magnetic resonance imaging study. Schizophrenia Research. 2025;284:237-47. [doi](https://doi.org/10.1016/j.schres.2025.08.010).
 * Barzon G, Allegra M, **Aarabi MH**, Pini L, De Domenico M, Corbetta M, et al. Structural Connectome Dimension Shapes Brain Dynamics in Health and Disease. bioRxiv. 2025:2025.06.30.662336.[doi](https://doi.org/10.1101/2025.06.30.662336)
-* Pini L, **Aarabi MH**, Salvalaggio A, Colletta AM, Metcalf NV, Griffis JC, et al. Longitudinal degeneration of microstructural and structural connectivity patterns following stroke. medRxiv. 2025:2025.05.11.25327333.[doi](https://doi.org/10.1101/2025.05.11.25327333) 
-* Kiani I, **Aarabi MH**, Cattarinussi G, Sambataro F, Favalli V, Moltrasio C, et al. White matter changes in paediatric bipolar disorder: A systematic review of diffusion magnetic resonance imaging studiesA systematic review of diffusion magnetic resonance imaging studies. Journal of Affective Disorders. 2025;373:67-79. [doi](https://doi.org/10.1016/j.jad.2024.12.042).
-* Valizadeh P, Jannatdoust P, Ghadimi DJ, Tahamtan M, Darmiani K, Shahsavarhaghighi S, et al. The association between C-reactive protein and neuroimaging findings in mood disorders: A review of structural and diffusion MRI studies. Journal of Affective Disorders. 2025. [doi](https://doi.org/10.1016/j.jad.2025.03.175).
+* Kiani I, **Aarabi MH**, Cattarinussi G, Sambataro F, Favalli V, Moltrasio C, et al. White matter changes in paediatric bipolar disorder: A systematic review of diffusion magnetic resonance imaging studies. Journal of Affective Disorders. 2025;373:67-79. [doi](https://doi.org/10.1016/j.jad.2024.12.042).
+* Valizadeh P, Jannatdoust P, Ghadimi DJ, Tahamtan M, Darmiani K, Shahsavarhaghighi S, et al. The association between C-reactive protein and neuroimaging findings in mood disorders: A review of structural and diffusion MRI studies. Journal of Affective Disorders. 2025;381:643-58. [doi](https://doi.org/10.1016/j.jad.2025.03.175).
 * Cattarinussi G, Grimaldi DA, **Aarabi MH**, Sambataro F. Static and Dynamic Dysconnectivity in Early Psychosis: Relationship With Symptom Dimensions. Schizophrenia Bulletin. 2025. [doi](https://doi.org/10.1093/schbul/sbae142)
 * Parsaei M, Barahman G, Roumiani PH, Ranjbar E, Ansari S, Najafi A, et al. White Matter Correlates of Cognition: A Diffusion Magnetic Resonance Imaging Study. Behavioural Brain Research. 2025:115222. [doi](https://doi.org/10.1016/j.bbr.2024.115222)
 

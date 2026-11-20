@@ -1,4 +1,4 @@
-/* Site-wide background: 700 real streamlines (2D lateral projection) drawn faintly,
+/* Site-wide background: 700 HCP-1065 atlas streamlines (2D lateral projection) drawn faintly,
    with light particles flowing along them. Pauses when the tab is hidden; static for reduced motion. */
 (function () {
   "use strict";
@@ -6,7 +6,8 @@
   const src = document.documentElement.dataset.fibres || (me && me.dataset.src);
   if (!src || !window.HTMLCanvasElement) return;
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const NET = [[150, 165, 215], [170, 80, 190], [110, 165, 220], [70, 200, 110], [200, 120, 255], [225, 245, 170], [240, 170, 80], [235, 100, 120]];
+  // tract families: association, limbic, projection, commissural, cerebellar/brainstem
+  const NET = [[95, 224, 168], [242, 166, 90], [122, 162, 255], [232, 106, 138], [196, 155, 255]];
   const cv = document.createElement("canvas");
   cv.className = "neuro-bg"; cv.setAttribute("aria-hidden", "true");
   document.body.prepend(cv);

@@ -1,13 +1,14 @@
-/* Hero: live 3D tractography (4,180 streamlines from the tract2network atlas data)
-   with light pulses and particles flowing along the fibres. Needs THREE (r128). */
+/* Hero: live 3D tractography (4,180 streamlines from the HCP-1065 population tractography atlas, Yeh 2022)
+   with light pulses and particles flowing along the fibres. Colour by fibre direction or by tract family.
+   Needs THREE (r128). */
 (function () {
   "use strict";
   const stage = document.getElementById("hero-stage");
   if (!stage || !window.THREE) return;
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  const NET = [[0.55, 0.62, 0.85], [0.47, 0.07, 0.53], [0.27, 0.51, 0.71], [0.0, 0.46, 0.05],
-    [0.77, 0.23, 0.98], [0.86, 0.97, 0.64], [0.9, 0.58, 0.13], [0.8, 0.24, 0.31]];
+  // tract families: association, limbic, projection, commissural, cerebellar/brainstem
+  const NET = [[0.37, 0.88, 0.66], [0.95, 0.65, 0.35], [0.48, 0.64, 1.0], [0.91, 0.42, 0.54], [0.77, 0.61, 1.0]];
   const glow = (c) => { const m = Math.max(...c); return c.map((v) => 0.35 + 0.65 * v / m); };
 
   fetch(stage.dataset.src).then((r) => r.arrayBuffer()).then(build).catch(() => stage.classList.add("is-failed"));
@@ -137,7 +138,8 @@
 
     let mixTarget = 0;
     document.querySelectorAll("[data-fibre-mode]").forEach((btn) => btn.addEventListener("click", () => {
-      mixTarget = btn.dataset.fibreMode === "net" ? 1 : 0;
+      mixTarget = btn.dataset.fibreMode === "family" ? 1 : 0;
+      document.body.dataset.fibreMode = btn.dataset.fibreMode;
       document.querySelectorAll("[data-fibre-mode]").forEach((b) => b.setAttribute("aria-pressed", String(b === btn)));
     }));
 
