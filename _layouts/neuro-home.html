@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="{{ base_path }}/assets/neuro/neuro-home.css">
+  <link rel="stylesheet" href="{{ base_path }}/assets/neuro/neuro-home.css?v={{ site.time | date: '%s' }}">
   <link rel="preload" href="{{ base_path }}/assets/neuro/hero.bin" as="fetch" crossorigin>
 </head>
 <body class="nh">
@@ -118,8 +118,8 @@
   </footer>
 
   <script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
-  <script src="{{ base_path }}/assets/neuro/hero.js" defer></script>
-  <script src="{{ base_path }}/assets/neuro/fibres-bg.js" defer></script>
+  <script src="{{ base_path }}/assets/neuro/hero.js?v={{ site.time | date: '%s' }}" defer></script>
+  <script src="{{ base_path }}/assets/neuro/fibres-bg.js?v={{ site.time | date: '%s' }}" defer></script>
   <script>
     (function(){var v=document.querySelectorAll('.nh-theme-video');if(!('IntersectionObserver' in window))return;
       var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.play().catch(function(){});}else{e.target.pause();}});},{threshold:.25});
